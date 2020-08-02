@@ -1,0 +1,37 @@
+{
+  "group": "xenorite",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xenorite:coreorite_ingot"
+    },
+    {
+      "item": "xenorite:coreorite_ingot"
+    },
+    {
+      "item": "xenorite:coreorite_ingot"
+    },
+    {
+      "item": "xenorite:coreorite_ingot"
+    },
+    {
+      "item": "xenorite:coreorite_ingot"
+    },
+    {
+      "item": "xenorite:coreorite_ingot"
+    },
+    {
+      "item": "xenorite:coreorite_ingot"
+    },
+    {
+      "item": "xenorite:coreorite_ingot"
+    },
+    {
+      "item": "xenorite:coreorite_ingot"
+    }
+  ],
+  "result": {
+    "item": "xenorite:coreorite_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="xenorite"
+version="3.0.0"
+displayName="Xenorite"
+credits="Created by TechieCrow and Chewablebliss"
+displayURL="https://github.com/TechieCrow/Xenorite"
+authors="TechieCrow"
+
+[[dependencies.xenorite]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

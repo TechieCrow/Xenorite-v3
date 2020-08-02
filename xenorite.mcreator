@@ -1,0 +1,790 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "XenoriteSmelterGUIItemTakenFromSlot",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_smelter_gui_item_taken_from_slot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XenoriteSmelterGUITransferedFromSlot",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_smelter_gui_transfered_from_slot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XenoriteCreativeTab",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_creative_tab"
+    },
+    {
+      "name": "XenoriteSmelter",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_smelter"
+    },
+    {
+      "name": "XenoriteSmelterGUI",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_smelter_gui"
+    },
+    {
+      "name": "XenoriteSmelterOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_smelter_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XenoriteSmelterUpdateTick",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_smelter_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XenoriteOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_ore"
+    },
+    {
+      "name": "CoreoriteOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_ore"
+    },
+    {
+      "name": "FinoriteOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_ore"
+    },
+    {
+      "name": "XenoriteBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_block"
+    },
+    {
+      "name": "CoreoriteBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_block"
+    },
+    {
+      "name": "FinoriteBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_block"
+    },
+    {
+      "name": "XenoriteIngot",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_ingot"
+    },
+    {
+      "name": "CoreoriteIngot",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_ingot"
+    },
+    {
+      "name": "FinoriteIngot",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_ingot"
+    },
+    {
+      "name": "XenoriteBlockRecript",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_block_recript"
+    },
+    {
+      "name": "CoreoriteBlockRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_block_recipe"
+    },
+    {
+      "name": "FinoriteBlockRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_block_recipe"
+    },
+    {
+      "name": "XenoritePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_pickaxe_recipe"
+    },
+    {
+      "name": "XenoriteAxeRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_axe_recipe"
+    },
+    {
+      "name": "XenoriteSwordRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_sword_recipe"
+    },
+    {
+      "name": "XenoriteShovelRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_shovel_recipe"
+    },
+    {
+      "name": "XenoriteHoeRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_hoe_recipe"
+    },
+    {
+      "name": "XenoritePickaxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_pickaxe"
+    },
+    {
+      "name": "CoreoritePickaxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_pickaxe"
+    },
+    {
+      "name": "FinoritePickaxe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_pickaxe"
+    },
+    {
+      "name": "XenoriteShovel",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_shovel"
+    },
+    {
+      "name": "CoreoriteShovel",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_shovel"
+    },
+    {
+      "name": "FinoriteShovel",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_shovel"
+    },
+    {
+      "name": "XenoriteAxe",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_axe"
+    },
+    {
+      "name": "CoreoriteAxe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_axe"
+    },
+    {
+      "name": "FinoriteAxe",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_axe"
+    },
+    {
+      "name": "XenoriteHoe",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_hoe"
+    },
+    {
+      "name": "CoreoriteHoe",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_hoe"
+    },
+    {
+      "name": "FinoriteHoe",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_hoe"
+    },
+    {
+      "name": "XenoriteShears",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_shears"
+    },
+    {
+      "name": "CoreoriteShears",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_shears"
+    },
+    {
+      "name": "FinoriteShears",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_shears"
+    },
+    {
+      "name": "XenoriteSword",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_sword"
+    },
+    {
+      "name": "CoreoriteSword",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_sword"
+    },
+    {
+      "name": "FinoriteSword",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_sword"
+    },
+    {
+      "name": "CoreoritePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_pickaxe_recipe"
+    },
+    {
+      "name": "FinoritePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_pickaxe_recipe"
+    },
+    {
+      "name": "CoreoriteAxeRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_axe_recipe"
+    },
+    {
+      "name": "FinoriteAxeRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_axe_recipe"
+    },
+    {
+      "name": "CoreoriteSwordRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_sword_recipe"
+    },
+    {
+      "name": "FinoriteSwordRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_sword_recipe"
+    },
+    {
+      "name": "CoreoriteShovelRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_shovel_recipe"
+    },
+    {
+      "name": "FinoriteShovelRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_shovel_recipe"
+    },
+    {
+      "name": "CoreoriteHoeRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_hoe_recipe"
+    },
+    {
+      "name": "FinoriteHoeRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_hoe_recipe"
+    },
+    {
+      "name": "XenoriteShearsRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_shears_recipe"
+    },
+    {
+      "name": "CoreoriteShearsRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_shears_recipe"
+    },
+    {
+      "name": "FinoriteShearsRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_shears_recipe"
+    },
+    {
+      "name": "XenoriteArmor",
+      "type": "armor",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CoreoriteArmor",
+      "type": "armor",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_armor",
+      "metadata": {
+        "eh": true,
+        "eb": true,
+        "ec": true,
+        "el": true
+      }
+    },
+    {
+      "name": "FinoriteArmor",
+      "type": "armor",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_armor",
+      "metadata": {
+        "eh": true,
+        "eb": true,
+        "ec": true,
+        "el": true
+      }
+    },
+    {
+      "name": "XenoriteHelmetRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_helmet_recipe"
+    },
+    {
+      "name": "CoreoriteHelmetRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_helmet_recipe"
+    },
+    {
+      "name": "FinoriteHelmetRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_helmet_recipe"
+    },
+    {
+      "name": "XenoriteChestplateRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_chestplate_recipe"
+    },
+    {
+      "name": "CoreoriteChestplateRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_chestplate_recipe"
+    },
+    {
+      "name": "FinoriteChestplateRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_chestplate_recipe"
+    },
+    {
+      "name": "XenoriteLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_leggings_recipe"
+    },
+    {
+      "name": "CoreoriteLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_leggings_recipe"
+    },
+    {
+      "name": "FinoriteLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_leggings_recipe"
+    },
+    {
+      "name": "XenoriteBootsRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xenorite_boots_recipe"
+    },
+    {
+      "name": "CoreoriteBootsRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coreorite_boots_recipe"
+    },
+    {
+      "name": "FinoriteBootsRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finorite_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.xenorite.xenorite_sword": "Xenorite Sword",
+      "item.xenorite.xenorite_shears": "Xenorite Shears",
+      "item.xenorite.xenorite_hoe": "Xenorite Hoe",
+      "item.xenorite.coreorite_axe": "Coreorite Axe",
+      "item.xenorite.coreorite_sword": "Coreorite Sword",
+      "item.xenorite.finorite_axe": "Finorite Axe",
+      "item.xenorite.coreorite_armor_leggings": "Coreorite Leggings",
+      "item.xenorite.coreorite_armorhelmet": "Coreorite Helmet",
+      "item.xenorite.coreorite_armorlegs": "Coreorite Leggings",
+      "block.xenorite.finorite_block": "Finorite Block",
+      "item.xenorite.coreorite_ingot": "Coreorite Ingot",
+      "item.xenorite.finorite_armorhelmet": "Finorite Helmet",
+      "item.xenorite.finorite_shears": "Finorite Shears",
+      "item.xenorite.coreorite_armor_chestplate": "Coreorite Body",
+      "block.xenorite.xenorite_smelter": "Xenorite Smelter",
+      "item.xenorite.xenorite_ingot": "Xenorite Ingot",
+      "item.xenorite.coreorite_armorbody": "Coreorite Body",
+      "item.xenorite.xenorite_shovel": "Xenorite Shovel",
+      "item.xenorite.xenorite_armorhelmet": "Xenorite Helmet",
+      "item.xenorite.finorite_armor_helmet": "Finorite Helmet",
+      "item.xenorite.finorite_armorboots": "Finorite Boots",
+      "item.xenorite.coreorite_hoe": "Coreorite Hoe",
+      "item.xenorite.coreorite_armor_helmet": "Coreorite Helmet",
+      "item.xenorite.finorite_ingot": "Finorite Ingot",
+      "item.xenorite.coreorite_armorboots": "Coreorite Boots",
+      "item.xenorite.finorite_hoe": "Finorite Hoe",
+      "item.xenorite.finorite_armorbody": "Finorite Body",
+      "itemGroup.tabxenorite_creative_tab": "Xenorite",
+      "block.xenorite.coreorite_block": "Coreorite Block",
+      "item.xenorite.finorite_pickaxe": "Finorite Pickaxe",
+      "item.xenorite.xenorite_armor_leggings": "Xenorite Leggings",
+      "item.xenorite.coreorite_armor_boots": "Coreorite Boots",
+      "item.xenorite.xenorite_armorbody": "Xenorite Body",
+      "item.xenorite.xenorite_armorlegs": "Xenorite Leggings",
+      "item.xenorite.finorite_shovel": "Finorite Shovel",
+      "item.xenorite.xenorite_pickaxe": "Xenorite Pickaxe",
+      "item.xenorite.finorite_armor_boots": "Finorite Boots",
+      "item.xenorite.finorite_armorlegs": "Finorite Leggings",
+      "item.xenorite.finorite_armor_leggings": "Finorite Leggings",
+      "block.xenorite.xenorite_block": "Xenorite Block",
+      "item.xenorite.finorite_sword": "Finorite Sword",
+      "item.xenorite.finorite_armor_chestplate": "Finorite Body",
+      "item.xenorite.coreorite_shears": "Coreorite Shears",
+      "block.xenorite.xenorite_ore": "Xenorite Ore",
+      "block.xenorite.finorite_ore": "Finorite Ore",
+      "item.xenorite.xenorite_armor_chestplate": "Xenorite Body",
+      "item.xenorite.coreorite_shovel": "Coreorite Shovel",
+      "item.xenorite.xenorite_armor_helmet": "Xenorite Helmet",
+      "block.xenorite.coreorite_ore": "Coreorite Ore",
+      "item.xenorite.xenorite_axe": "Xenorite Axe",
+      "item.xenorite.xenorite_armorboots": "Xenorite Boots",
+      "item.xenorite.xenorite_armor_boots": "Xenorite Boots",
+      "item.xenorite.coreorite_pickaxe": "Coreorite Pickaxe"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "xenorite",
+    "modName": "Xenorite",
+    "version": "3.0.0",
+    "author": "TechieCrow",
+    "websiteURL": "https://github.com/TechieCrow/Xenorite",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created by TechieCrow and Chewablebliss",
+    "modElementsPackage": "com.techiecrow.xenorite",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000431617
+}

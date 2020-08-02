@@ -1,0 +1,30 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "coreoriteshovel",
+    "customModelName": "Normal",
+    "name": "Coreorite Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:XenoriteCreativeTab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 1,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 4.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:CoreoriteIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

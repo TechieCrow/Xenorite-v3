@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "xenorite:blocks/coreoriteblock",
+    "particle": "xenorite:blocks/coreoriteblock"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "_fv": 10,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "helmetfinorite",
+    "enableBody": true,
+    "textureBody": "leggingsfinorite",
+    "enableLeggings": true,
+    "textureLeggings": "chestplatefinorite",
+    "enableBoots": true,
+    "textureBoots": "bootsfinorite",
+    "creativeTab": {
+      "value": "CUSTOM:XenoriteCreativeTab"
+    },
+    "armorTextureFile": "finorite_",
+    "helmetName": "Finorite Helmet",
+    "bodyName": "Finorite Body",
+    "leggingsName": "Finorite Leggings",
+    "bootsName": "Finorite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 25,
+    "toughness": 1.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:FinoriteIngot"
+      }
+    ]
+  }
+}

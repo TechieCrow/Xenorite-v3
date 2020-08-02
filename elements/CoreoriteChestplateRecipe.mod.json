@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CoreoriteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CoreoriteIngot"
+      },
+      {
+        "value": "CUSTOM:CoreoriteIngot"
+      },
+      {
+        "value": "CUSTOM:CoreoriteIngot"
+      },
+      {
+        "value": "CUSTOM:CoreoriteIngot"
+      },
+      {
+        "value": "CUSTOM:CoreoriteIngot"
+      },
+      {
+        "value": "CUSTOM:CoreoriteIngot"
+      },
+      {
+        "value": "CUSTOM:CoreoriteIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CoreoriteArmor.body"
+    },
+    "name": "coreorite_chestplate_recipe",
+    "namespace": "mod"
+  }
+}

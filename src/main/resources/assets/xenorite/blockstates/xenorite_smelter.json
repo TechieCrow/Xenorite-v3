@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "xenorite:block/xenorite_smelter"
+    },
+    "facing=east": {
+      "model": "xenorite:block/xenorite_smelter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "xenorite:block/xenorite_smelter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xenorite:block/xenorite_smelter",
+      "y": 270
+    }
+  }
+}

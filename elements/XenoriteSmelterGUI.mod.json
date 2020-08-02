@@ -1,0 +1,118 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 264,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 354,
+          "y": 168
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 516,
+          "y": 168
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Xenorite Smelter",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Xenorite Smelter",
+          "x": 264,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fuel",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Fuel",
+          "x": 264,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ingots",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Ingots",
+          "x": 372,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Output",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Output",
+          "x": 516,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 408,
+          "y": 168
+        }
+      }
+    ]
+  }
+}

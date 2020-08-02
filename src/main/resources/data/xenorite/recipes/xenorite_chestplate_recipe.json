@@ -1,0 +1,39 @@
+{
+  "group": "xenorite",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "xenorite:xenorite_ingot"
+    },
+    "2": {
+      "item": "xenorite:xenorite_ingot"
+    },
+    "3": {
+      "item": "xenorite:xenorite_ingot"
+    },
+    "4": {
+      "item": "xenorite:xenorite_ingot"
+    },
+    "5": {
+      "item": "xenorite:xenorite_ingot"
+    },
+    "6": {
+      "item": "xenorite:xenorite_ingot"
+    },
+    "7": {
+      "item": "xenorite:xenorite_ingot"
+    },
+    "8": {
+      "item": "xenorite:xenorite_ingot"
+    }
+  },
+  "result": {
+    "item": "xenorite:xenorite_armorbody",
+    "count": 1
+  }
+}

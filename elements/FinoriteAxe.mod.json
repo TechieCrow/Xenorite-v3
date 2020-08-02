@@ -1,0 +1,30 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "finoriteaxe",
+    "customModelName": "Normal",
+    "name": "Finorite Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:XenoriteCreativeTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 4.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:FinoriteIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

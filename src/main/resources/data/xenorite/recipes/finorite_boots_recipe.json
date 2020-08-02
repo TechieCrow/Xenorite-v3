@@ -1,0 +1,26 @@
+{
+  "group": "xenorite",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "xenorite:finorite_ingot"
+    },
+    "2": {
+      "item": "xenorite:finorite_ingot"
+    },
+    "3": {
+      "item": "xenorite:finorite_ingot"
+    },
+    "5": {
+      "item": "xenorite:finorite_ingot"
+    }
+  },
+  "result": {
+    "item": "xenorite:finorite_armorboots",
+    "count": 1
+  }
+}
