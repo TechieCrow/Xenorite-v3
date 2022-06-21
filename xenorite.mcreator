@@ -14,7 +14,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "XenoriteSmelterGUITransferedFromSlot",
@@ -30,7 +31,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "XenoriteCreativeTab",
@@ -38,7 +40,8 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_creative_tab"
+      "registry_name": "xenorite_creative_tab",
+      "path": "~/Creative Tabs"
     },
     {
       "name": "XenoriteSmelter",
@@ -46,7 +49,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_smelter"
+      "registry_name": "xenorite_smelter",
+      "path": "~/Smelters"
     },
     {
       "name": "XenoriteSmelterGUI",
@@ -54,7 +58,8 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_smelter_gui"
+      "registry_name": "xenorite_smelter_gui",
+      "path": "~/Procedures"
     },
     {
       "name": "XenoriteSmelterOnBlockRightClicked",
@@ -86,7 +91,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "XenoriteSmelterUpdateTick",
@@ -114,7 +120,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "XenoriteOre",
@@ -122,7 +129,8 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_ore"
+      "registry_name": "xenorite_ore",
+      "path": "~/Ores"
     },
     {
       "name": "CoreoriteOre",
@@ -130,7 +138,8 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_ore"
+      "registry_name": "coreorite_ore",
+      "path": "~/Ores"
     },
     {
       "name": "FinoriteOre",
@@ -138,7 +147,8 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_ore"
+      "registry_name": "finorite_ore",
+      "path": "~/Ores"
     },
     {
       "name": "XenoriteBlock",
@@ -146,7 +156,8 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_block"
+      "registry_name": "xenorite_block",
+      "path": "~/Blocks"
     },
     {
       "name": "CoreoriteBlock",
@@ -154,7 +165,8 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_block"
+      "registry_name": "coreorite_block",
+      "path": "~/Blocks"
     },
     {
       "name": "FinoriteBlock",
@@ -162,7 +174,8 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_block"
+      "registry_name": "finorite_block",
+      "path": "~/Blocks"
     },
     {
       "name": "XenoriteIngot",
@@ -170,7 +183,8 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_ingot"
+      "registry_name": "xenorite_ingot",
+      "path": "~/Items"
     },
     {
       "name": "CoreoriteIngot",
@@ -178,7 +192,8 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_ingot"
+      "registry_name": "coreorite_ingot",
+      "path": "~/Items"
     },
     {
       "name": "FinoriteIngot",
@@ -186,7 +201,8 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_ingot"
+      "registry_name": "finorite_ingot",
+      "path": "~/Items"
     },
     {
       "name": "XenoriteBlockRecript",
@@ -194,7 +210,8 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_block_recript"
+      "registry_name": "xenorite_block_recript",
+      "path": "~/Recipes/Blocks"
     },
     {
       "name": "CoreoriteBlockRecipe",
@@ -202,7 +219,8 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_block_recipe"
+      "registry_name": "coreorite_block_recipe",
+      "path": "~/Recipes/Blocks"
     },
     {
       "name": "FinoriteBlockRecipe",
@@ -210,7 +228,8 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_block_recipe"
+      "registry_name": "finorite_block_recipe",
+      "path": "~/Recipes/Blocks"
     },
     {
       "name": "XenoritePickaxeRecipe",
@@ -218,7 +237,8 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_pickaxe_recipe"
+      "registry_name": "xenorite_pickaxe_recipe",
+      "path": "~/Recipes/Tools/Pickaxes"
     },
     {
       "name": "XenoriteAxeRecipe",
@@ -226,7 +246,8 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_axe_recipe"
+      "registry_name": "xenorite_axe_recipe",
+      "path": "~/Recipes/Tools/Axes"
     },
     {
       "name": "XenoriteSwordRecipe",
@@ -234,7 +255,8 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_sword_recipe"
+      "registry_name": "xenorite_sword_recipe",
+      "path": "~/Recipes/Weapons/Swords"
     },
     {
       "name": "XenoriteShovelRecipe",
@@ -242,7 +264,8 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_shovel_recipe"
+      "registry_name": "xenorite_shovel_recipe",
+      "path": "~/Recipes/Tools/Shovels"
     },
     {
       "name": "XenoriteHoeRecipe",
@@ -250,7 +273,8 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_hoe_recipe"
+      "registry_name": "xenorite_hoe_recipe",
+      "path": "~/Recipes/Tools/Hoes"
     },
     {
       "name": "XenoritePickaxe",
@@ -258,7 +282,8 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_pickaxe"
+      "registry_name": "xenorite_pickaxe",
+      "path": "~/Tools"
     },
     {
       "name": "CoreoritePickaxe",
@@ -266,7 +291,8 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_pickaxe"
+      "registry_name": "coreorite_pickaxe",
+      "path": "~/Tools"
     },
     {
       "name": "FinoritePickaxe",
@@ -274,7 +300,8 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_pickaxe"
+      "registry_name": "finorite_pickaxe",
+      "path": "~/Tools"
     },
     {
       "name": "XenoriteShovel",
@@ -282,7 +309,8 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_shovel"
+      "registry_name": "xenorite_shovel",
+      "path": "~/Tools"
     },
     {
       "name": "CoreoriteShovel",
@@ -290,7 +318,8 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_shovel"
+      "registry_name": "coreorite_shovel",
+      "path": "~/Tools"
     },
     {
       "name": "FinoriteShovel",
@@ -298,7 +327,8 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_shovel"
+      "registry_name": "finorite_shovel",
+      "path": "~/Tools"
     },
     {
       "name": "XenoriteAxe",
@@ -306,7 +336,8 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_axe"
+      "registry_name": "xenorite_axe",
+      "path": "~/Tools"
     },
     {
       "name": "CoreoriteAxe",
@@ -314,7 +345,8 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_axe"
+      "registry_name": "coreorite_axe",
+      "path": "~/Tools"
     },
     {
       "name": "FinoriteAxe",
@@ -322,7 +354,8 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_axe"
+      "registry_name": "finorite_axe",
+      "path": "~/Tools"
     },
     {
       "name": "XenoriteHoe",
@@ -330,7 +363,8 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_hoe"
+      "registry_name": "xenorite_hoe",
+      "path": "~/Tools"
     },
     {
       "name": "CoreoriteHoe",
@@ -338,7 +372,8 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_hoe"
+      "registry_name": "coreorite_hoe",
+      "path": "~/Tools"
     },
     {
       "name": "FinoriteHoe",
@@ -346,7 +381,8 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_hoe"
+      "registry_name": "finorite_hoe",
+      "path": "~/Tools"
     },
     {
       "name": "XenoriteShears",
@@ -354,7 +390,8 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_shears"
+      "registry_name": "xenorite_shears",
+      "path": "~/Tools"
     },
     {
       "name": "CoreoriteShears",
@@ -362,7 +399,8 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_shears"
+      "registry_name": "coreorite_shears",
+      "path": "~/Tools"
     },
     {
       "name": "FinoriteShears",
@@ -370,7 +408,8 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_shears"
+      "registry_name": "finorite_shears",
+      "path": "~/Tools"
     },
     {
       "name": "XenoriteSword",
@@ -378,7 +417,8 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_sword"
+      "registry_name": "xenorite_sword",
+      "path": "~/Weapons"
     },
     {
       "name": "CoreoriteSword",
@@ -386,7 +426,8 @@
       "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_sword"
+      "registry_name": "coreorite_sword",
+      "path": "~/Weapons"
     },
     {
       "name": "FinoriteSword",
@@ -394,7 +435,8 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_sword"
+      "registry_name": "finorite_sword",
+      "path": "~/Weapons"
     },
     {
       "name": "CoreoritePickaxeRecipe",
@@ -402,7 +444,8 @@
       "sortid": 49,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_pickaxe_recipe"
+      "registry_name": "coreorite_pickaxe_recipe",
+      "path": "~/Recipes/Tools/Pickaxes"
     },
     {
       "name": "FinoritePickaxeRecipe",
@@ -410,7 +453,8 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_pickaxe_recipe"
+      "registry_name": "finorite_pickaxe_recipe",
+      "path": "~/Recipes/Tools/Pickaxes"
     },
     {
       "name": "CoreoriteAxeRecipe",
@@ -418,7 +462,8 @@
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_axe_recipe"
+      "registry_name": "coreorite_axe_recipe",
+      "path": "~/Recipes/Tools/Axes"
     },
     {
       "name": "FinoriteAxeRecipe",
@@ -426,7 +471,8 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_axe_recipe"
+      "registry_name": "finorite_axe_recipe",
+      "path": "~/Recipes/Tools/Axes"
     },
     {
       "name": "CoreoriteSwordRecipe",
@@ -434,7 +480,8 @@
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_sword_recipe"
+      "registry_name": "coreorite_sword_recipe",
+      "path": "~/Recipes/Weapons/Swords"
     },
     {
       "name": "FinoriteSwordRecipe",
@@ -442,7 +489,8 @@
       "sortid": 54,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_sword_recipe"
+      "registry_name": "finorite_sword_recipe",
+      "path": "~/Recipes/Weapons/Swords"
     },
     {
       "name": "CoreoriteShovelRecipe",
@@ -450,7 +498,8 @@
       "sortid": 55,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_shovel_recipe"
+      "registry_name": "coreorite_shovel_recipe",
+      "path": "~/Recipes/Tools/Shovels"
     },
     {
       "name": "FinoriteShovelRecipe",
@@ -458,7 +507,8 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_shovel_recipe"
+      "registry_name": "finorite_shovel_recipe",
+      "path": "~/Recipes/Tools/Shovels"
     },
     {
       "name": "CoreoriteHoeRecipe",
@@ -466,7 +516,8 @@
       "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_hoe_recipe"
+      "registry_name": "coreorite_hoe_recipe",
+      "path": "~/Recipes/Tools/Hoes"
     },
     {
       "name": "FinoriteHoeRecipe",
@@ -474,7 +525,8 @@
       "sortid": 58,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_hoe_recipe"
+      "registry_name": "finorite_hoe_recipe",
+      "path": "~/Recipes/Tools/Hoes"
     },
     {
       "name": "XenoriteShearsRecipe",
@@ -482,7 +534,8 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_shears_recipe"
+      "registry_name": "xenorite_shears_recipe",
+      "path": "~/Recipes/Shears"
     },
     {
       "name": "CoreoriteShearsRecipe",
@@ -490,7 +543,8 @@
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_shears_recipe"
+      "registry_name": "coreorite_shears_recipe",
+      "path": "~/Recipes/Shears"
     },
     {
       "name": "FinoriteShearsRecipe",
@@ -498,7 +552,8 @@
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_shears_recipe"
+      "registry_name": "finorite_shears_recipe",
+      "path": "~/Recipes/Shears"
     },
     {
       "name": "XenoriteArmor",
@@ -512,7 +567,8 @@
         "el": true,
         "eb": true,
         "ec": true
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "CoreoriteArmor",
@@ -526,7 +582,8 @@
         "eb": true,
         "ec": true,
         "el": true
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "FinoriteArmor",
@@ -540,7 +597,8 @@
         "eb": true,
         "ec": true,
         "el": true
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "XenoriteHelmetRecipe",
@@ -548,7 +606,8 @@
       "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_helmet_recipe"
+      "registry_name": "xenorite_helmet_recipe",
+      "path": "~/Recipes/Armor/Helmets"
     },
     {
       "name": "CoreoriteHelmetRecipe",
@@ -556,7 +615,8 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_helmet_recipe"
+      "registry_name": "coreorite_helmet_recipe",
+      "path": "~/Recipes/Armor/Helmets"
     },
     {
       "name": "FinoriteHelmetRecipe",
@@ -564,7 +624,8 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_helmet_recipe"
+      "registry_name": "finorite_helmet_recipe",
+      "path": "~/Recipes/Armor/Helmets"
     },
     {
       "name": "XenoriteChestplateRecipe",
@@ -572,7 +633,8 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_chestplate_recipe"
+      "registry_name": "xenorite_chestplate_recipe",
+      "path": "~/Recipes/Armor/Chestplates"
     },
     {
       "name": "CoreoriteChestplateRecipe",
@@ -580,7 +642,8 @@
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_chestplate_recipe"
+      "registry_name": "coreorite_chestplate_recipe",
+      "path": "~/Recipes/Armor/Chestplates"
     },
     {
       "name": "FinoriteChestplateRecipe",
@@ -588,7 +651,8 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_chestplate_recipe"
+      "registry_name": "finorite_chestplate_recipe",
+      "path": "~/Recipes/Armor/Chestplates"
     },
     {
       "name": "XenoriteLeggingsRecipe",
@@ -596,7 +660,8 @@
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_leggings_recipe"
+      "registry_name": "xenorite_leggings_recipe",
+      "path": "~/Recipes/Armor/Leggings"
     },
     {
       "name": "CoreoriteLeggingsRecipe",
@@ -604,7 +669,8 @@
       "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_leggings_recipe"
+      "registry_name": "coreorite_leggings_recipe",
+      "path": "~/Recipes/Armor/Leggings"
     },
     {
       "name": "FinoriteLeggingsRecipe",
@@ -612,7 +678,8 @@
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_leggings_recipe"
+      "registry_name": "finorite_leggings_recipe",
+      "path": "~/Recipes/Armor/Leggings"
     },
     {
       "name": "XenoriteBootsRecipe",
@@ -620,7 +687,8 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xenorite_boots_recipe"
+      "registry_name": "xenorite_boots_recipe",
+      "path": "~/Recipes/Armor/Boots"
     },
     {
       "name": "CoreoriteBootsRecipe",
@@ -628,7 +696,8 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coreorite_boots_recipe"
+      "registry_name": "coreorite_boots_recipe",
+      "path": "~/Recipes/Armor/Boots"
     },
     {
       "name": "FinoriteBootsRecipe",
@@ -636,7 +705,8 @@
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "finorite_boots_recipe"
+      "registry_name": "finorite_boots_recipe",
+      "path": "~/Recipes/Armor/Boots"
     }
   ],
   "variable_elements": [],
@@ -700,7 +770,108 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Creative Tabs",
+        "children": []
+      },
+      {
+        "name": "Smelters",
+        "children": []
+      },
+      {
+        "name": "Ores",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Shears",
+            "children": []
+          },
+          {
+            "name": "Armor",
+            "children": [
+              {
+                "name": "Boots",
+                "children": []
+              },
+              {
+                "name": "Leggings",
+                "children": []
+              },
+              {
+                "name": "Chestplates",
+                "children": []
+              },
+              {
+                "name": "Helmets",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Weapons",
+            "children": [
+              {
+                "name": "Swords",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Tools",
+            "children": [
+              {
+                "name": "Pickaxes",
+                "children": []
+              },
+              {
+                "name": "Axes",
+                "children": []
+              },
+              {
+                "name": "Shovels",
+                "children": []
+              },
+              {
+                "name": "Hoes",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "xenorite",
