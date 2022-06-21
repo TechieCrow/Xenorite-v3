@@ -1,10 +1,12 @@
 {
-  "_fv": 10,
+  "_fv": 28,
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 352,
-    "height": 332,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
@@ -18,8 +20,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 264,
-          "y": 168
+          "x": 133,
+          "y": 84
         }
       },
       {
@@ -32,8 +34,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 354,
-          "y": 168
+          "x": 177,
+          "y": 84
         }
       },
       {
@@ -43,8 +45,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #3",
-          "x": 516,
-          "y": 168
+          "x": 258,
+          "y": 84
         }
       },
       {
@@ -56,8 +58,8 @@
             "falpha": 0.0
           },
           "name": "Xenorite Smelter",
-          "x": 264,
-          "y": 78
+          "x": 132,
+          "y": 43
         }
       },
       {
@@ -69,8 +71,8 @@
             "falpha": 0.0
           },
           "name": "Fuel",
-          "x": 264,
-          "y": 132
+          "x": 132,
+          "y": 66
         }
       },
       {
@@ -82,8 +84,8 @@
             "falpha": 0.0
           },
           "name": "Ingots",
-          "x": 372,
-          "y": 132
+          "x": 183,
+          "y": 65
         }
       },
       {
@@ -95,8 +97,8 @@
             "falpha": 0.0
           },
           "name": "Output",
-          "x": 516,
-          "y": 132
+          "x": 251,
+          "y": 66
         }
       },
       {
@@ -109,10 +111,17 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 408,
-          "y": 168
+          "x": 204,
+          "y": 84
         }
       }
-    ]
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
   }
 }

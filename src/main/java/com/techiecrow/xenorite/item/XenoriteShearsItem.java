@@ -1,36 +1,25 @@
 
 package com.techiecrow.xenorite.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.item.ShearsItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 
-import net.minecraft.item.ShearsItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.block.BlockState;
+import com.techiecrow.xenorite.init.XenoriteModTabs;
 
-import com.techiecrow.xenorite.itemgroup.XenoriteCreativeTabItemGroup;
-import com.techiecrow.xenorite.XenoriteModElements;
-
-@XenoriteModElements.ModElement.Tag
-public class XenoriteShearsItem extends XenoriteModElements.ModElement {
-	@ObjectHolder("xenorite:xenorite_shears")
-	public static final Item block = null;
-	public XenoriteShearsItem(XenoriteModElements instance) {
-		super(instance, 43);
+public class XenoriteShearsItem extends ShearsItem {
+	public XenoriteShearsItem() {
+		super(new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB).durability(500));
 	}
 
 	@Override
-	public void initElements() {
-		elements.items.add(() -> new ShearsItem(new Item.Properties().group(XenoriteCreativeTabItemGroup.tab).maxDamage(500)) {
-			@Override
-			public int getItemEnchantability() {
-				return 22;
-			}
+	public int getEnchantmentValue() {
+		return 22;
+	}
 
-			@Override
-			public float getDestroySpeed(ItemStack stack, BlockState block) {
-				return 7f;
-			}
-		}.setRegistryName("xenorite_shears"));
+	@Override
+	public float getDestroySpeed(ItemStack stack, BlockState blockstate) {
+		return 7f;
 	}
 }

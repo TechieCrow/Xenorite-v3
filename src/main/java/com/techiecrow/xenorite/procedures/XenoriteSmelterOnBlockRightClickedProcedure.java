@@ -1,73 +1,41 @@
 package com.techiecrow.xenorite.procedures;
 
-import net.minecraftforge.fml.network.NetworkHooks;
+import net.minecraftforge.network.NetworkHooks;
 
-import net.minecraft.world.IWorld;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.network.PacketBuffer;
-import net.minecraft.inventory.container.INamedContainerProvider;
-import net.minecraft.inventory.container.Container;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-
-import java.util.Map;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.MenuProvider;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
 
 import io.netty.buffer.Unpooled;
 
-import com.techiecrow.xenorite.gui.XenoriteSmelterGUIGui;
-import com.techiecrow.xenorite.XenoriteModElements;
+import com.techiecrow.xenorite.world.inventory.XenoriteSmelterGUIMenu;
 
-@XenoriteModElements.ModElement.Tag
-public class XenoriteSmelterOnBlockRightClickedProcedure extends XenoriteModElements.ModElement {
-	public XenoriteSmelterOnBlockRightClickedProcedure(XenoriteModElements instance) {
-		super(instance, 7);
-	}
-
-	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure XenoriteSmelterOnBlockRightClicked!");
+public class XenoriteSmelterOnBlockRightClickedProcedure {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
+		if (entity == null)
 			return;
-		}
-		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure XenoriteSmelterOnBlockRightClicked!");
-			return;
-		}
-		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure XenoriteSmelterOnBlockRightClicked!");
-			return;
-		}
-		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure XenoriteSmelterOnBlockRightClicked!");
-			return;
-		}
-		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure XenoriteSmelterOnBlockRightClicked!");
-			return;
-		}
-		Entity entity = (Entity) dependencies.get("entity");
-		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
-		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
-		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		IWorld world = (IWorld) dependencies.get("world");
-		if (entity instanceof PlayerEntity)
-			((PlayerEntity) entity).closeScreen();
+		if (entity instanceof Player _player)
+			_player.closeContainer();
 		{
-			Entity _ent = entity;
-			if (_ent instanceof ServerPlayerEntity) {
-				BlockPos _bpos = new BlockPos((int) x, (int) y, (int) z);
-				NetworkHooks.openGui((ServerPlayerEntity) _ent, new INamedContainerProvider() {
+			if (entity instanceof ServerPlayer _ent) {
+				BlockPos _bpos = new BlockPos(x, y, z);
+				NetworkHooks.openGui((ServerPlayer) _ent, new MenuProvider() {
 					@Override
-					public ITextComponent getDisplayName() {
-						return new StringTextComponent("XenoriteSmelterGUI");
+					public Component getDisplayName() {
+						return new TextComponent("XenoriteSmelterGUI");
 					}
 
 					@Override
-					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new XenoriteSmelterGUIGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
+					public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+						return new XenoriteSmelterGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
 					}
 				}, _bpos);
 			}

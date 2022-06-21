@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "xenorite:xenorite_smelter",
+    "xenorite:xenorite_ore",
+    "xenorite:coreorite_ore",
+    "xenorite:finorite_ore",
+    "xenorite:xenorite_block",
+    "xenorite:coreorite_block",
+    "xenorite:finorite_block"
+  ]
+}

@@ -4,208 +4,158 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.items.IItemHandlerModifiable;
 import net.minecraftforge.items.CapabilityItemHandler;
 
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.SoundCategory;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemStack;
-import net.minecraft.block.Blocks;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.BlockPos;
 
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.Map;
 
-import com.techiecrow.xenorite.item.XenoriteIngotItem;
-import com.techiecrow.xenorite.item.CoreoriteIngotItem;
-import com.techiecrow.xenorite.XenoriteModElements;
+import com.techiecrow.xenorite.init.XenoriteModItems;
 
-@XenoriteModElements.ModElement.Tag
-public class XenoriteSmelterUpdateTickProcedure extends XenoriteModElements.ModElement {
-	public XenoriteSmelterUpdateTickProcedure(XenoriteModElements instance) {
-		super(instance, 8);
-	}
-
-	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure XenoriteSmelterUpdateTick!");
-			return;
-		}
-		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure XenoriteSmelterUpdateTick!");
-			return;
-		}
-		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure XenoriteSmelterUpdateTick!");
-			return;
-		}
-		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure XenoriteSmelterUpdateTick!");
-			return;
-		}
-		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
-		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
-		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		IWorld world = (IWorld) dependencies.get("world");
-		if ((((new Object() {
-			public int getAmount(BlockPos pos, int sltid) {
+public class XenoriteSmelterUpdateTickProcedure {
+	public static void execute(LevelAccessor world, double x, double y, double z) {
+		if (new Object() {
+			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
-				TileEntity _ent = world.getTileEntity(pos);
-				if (_ent != null) {
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-						_retval.set(capability.getStackInSlot(sltid).getCount());
-					});
-				}
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 				return _retval.get();
 			}
-		}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) < 64) && ((((new Object() {
-			public ItemStack getItemStack(BlockPos pos, int sltid) {
+		}.getAmount(world, new BlockPos(x, y, z), 3) < 64 && (new Object() {
+			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-				TileEntity _ent = world.getTileEntity(pos);
-				if (_ent != null) {
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-						_retval.set(capability.getStackInSlot(sltid).copy());
-					});
-				}
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(Items.COAL, (int) (1)).getItem())
-				&& (((new Object() {
-					public ItemStack getItemStack(BlockPos pos, int sltid) {
-						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-						TileEntity _ent = world.getTileEntity(pos);
-						if (_ent != null) {
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								_retval.set(capability.getStackInSlot(sltid).copy());
-							});
-						}
-						return _retval.get();
-					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(XenoriteIngotItem.block, (int) (1))
-						.getItem()) && ((new Object() {
-							public ItemStack getItemStack(BlockPos pos, int sltid) {
-								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-								TileEntity _ent = world.getTileEntity(pos);
-								if (_ent != null) {
-									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-										_retval.set(capability.getStackInSlot(sltid).copy());
-									});
-								}
-								return _retval.get();
-							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2)))
-								.getItem() == new ItemStack(CoreoriteIngotItem.block, (int) (1)).getItem())))
-				&& ((((new Object() {
-					public int getAmount(BlockPos pos, int sltid) {
-						AtomicInteger _retval = new AtomicInteger(0);
-						TileEntity _ent = world.getTileEntity(pos);
-						if (_ent != null) {
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								_retval.set(capability.getStackInSlot(sltid).getCount());
-							});
-						}
-						return _retval.get();
-					}
-				}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) <= 63) && ((new Object() {
-					public ItemStack getItemStack(BlockPos pos, int sltid) {
-						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-						TileEntity _ent = world.getTileEntity(pos);
-						if (_ent != null) {
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-								_retval.set(capability.getStackInSlot(sltid).copy());
-							});
-						}
-						return _retval.get();
-					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == new ItemStack(Blocks.DIAMOND_BLOCK, (int) (1))
-						.getItem())) || ((new Object() {
-							public ItemStack getItemStack(BlockPos pos, int sltid) {
-								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-								TileEntity _ent = world.getTileEntity(pos);
-								if (_ent != null) {
-									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-										_retval.set(capability.getStackInSlot(sltid).copy());
-									});
-								}
-								return _retval.get();
-							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == new ItemStack(Blocks.AIR, (int) (1))
-								.getItem()))))) {
+		}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() == Items.COAL && (new Object() {
+			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+				return _retval.get();
+			}
+		}.getItemStack(world, new BlockPos(x, y, z), 1)).getItem() == XenoriteModItems.XENORITE_INGOT.get() && (new Object() {
+			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+				return _retval.get();
+			}
+		}.getItemStack(world, new BlockPos(x, y, z), 2)).getItem() == XenoriteModItems.COREORITE_INGOT.get() && (new Object() {
+			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+				return _retval.get();
+			}
+		}.getAmount(world, new BlockPos(x, y, z), 3) <= 63 && (new Object() {
+			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+				return _retval.get();
+			}
+		}.getItemStack(world, new BlockPos(x, y, z), 3)).getItem() == Blocks.DIAMOND_BLOCK.asItem() || (new Object() {
+			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+				return _retval.get();
+			}
+		}.getItemStack(world, new BlockPos(x, y, z), 3)).getItem() == Blocks.AIR.asItem())) {
 			{
-				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 				if (_ent != null) {
-					final int _sltid = (int) (0);
-					final int _amount = (int) 1;
+					final int _slotid = 0;
+					final int _amount = 1;
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
-							ItemStack _stk = capability.getStackInSlot(_sltid).copy();
+							ItemStack _stk = capability.getStackInSlot(_slotid).copy();
 							_stk.shrink(_amount);
-							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
+							((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
 						}
 					});
 				}
 			}
 			{
-				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 				if (_ent != null) {
-					final int _sltid = (int) (1);
-					final int _amount = (int) 1;
+					final int _slotid = 1;
+					final int _amount = 1;
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
-							ItemStack _stk = capability.getStackInSlot(_sltid).copy();
+							ItemStack _stk = capability.getStackInSlot(_slotid).copy();
 							_stk.shrink(_amount);
-							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
+							((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
 						}
 					});
 				}
 			}
 			{
-				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 				if (_ent != null) {
-					final int _sltid = (int) (2);
-					final int _amount = (int) 1;
+					final int _slotid = 2;
+					final int _amount = 1;
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
-							ItemStack _stk = capability.getStackInSlot(_sltid).copy();
+							ItemStack _stk = capability.getStackInSlot(_slotid).copy();
 							_stk.shrink(_amount);
-							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _stk);
+							((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _stk);
 						}
 					});
 				}
 			}
 			{
-				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 				if (_ent != null) {
-					final int _sltid = (int) (3);
-					final ItemStack _setstack = new ItemStack(Blocks.DIAMOND_BLOCK, (int) (1));
-					_setstack.setCount((int) ((new Object() {
-						public int getAmount(BlockPos pos, int sltid) {
+					final int _slotid = 3;
+					final ItemStack _setstack = new ItemStack(Blocks.DIAMOND_BLOCK);
+					_setstack.setCount((int) (new Object() {
+						public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 							AtomicInteger _retval = new AtomicInteger(0);
-							TileEntity _ent = world.getTileEntity(pos);
-							if (_ent != null) {
-								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-									_retval.set(capability.getStackInSlot(sltid).getCount());
-								});
-							}
+							BlockEntity _ent = world.getBlockEntity(pos);
+							if (_ent != null)
+								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+										.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(world, new BlockPos(x, y, z), 3) + 1));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-						if (capability instanceof IItemHandlerModifiable) {
-							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
-						}
+						if (capability instanceof IItemHandlerModifiable)
+							((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
 					});
 				}
 			}
-			if (!world.getWorld().isRemote) {
-				world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.furnace.fire_crackle")),
-						SoundCategory.NEUTRAL, (float) 1, (float) 1);
-			} else {
-				world.getWorld().playSound(x, y, z,
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.furnace.fire_crackle")),
-						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, new BlockPos(x, y, z),
+							ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.furnace.fire_crackle")), SoundSource.NEUTRAL, 1, 1);
+				} else {
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.furnace.fire_crackle")),
+							SoundSource.NEUTRAL, 1, 1, false);
+				}
 			}
 		}
 	}

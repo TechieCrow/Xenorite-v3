@@ -1,5 +1,4 @@
 {
-  "group": "xenorite",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
@@ -23,7 +22,7 @@
     }
   },
   "result": {
-    "item": "xenorite:xenorite_armorhelmet",
+    "item": "xenorite:xenorite_armor_helmet",
     "count": 1
   }
 }

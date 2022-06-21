@@ -1,5 +1,4 @@
 {
-  "group": "xenorite",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
@@ -30,7 +29,7 @@
     }
   },
   "result": {
-    "item": "xenorite:coreorite_armorlegs",
+    "item": "xenorite:coreorite_armor_leggings",
     "count": 1
   }
 }

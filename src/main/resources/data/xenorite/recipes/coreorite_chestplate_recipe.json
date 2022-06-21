@@ -1,5 +1,4 @@
 {
-  "group": "xenorite",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "0 2",
@@ -33,7 +32,7 @@
     }
   },
   "result": {
-    "item": "xenorite:coreorite_armorbody",
+    "item": "xenorite:coreorite_armor_chestplate",
     "count": 1
   }
 }

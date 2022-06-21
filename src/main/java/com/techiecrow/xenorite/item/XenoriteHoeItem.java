@@ -1,52 +1,41 @@
 
 package com.techiecrow.xenorite.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.HoeItem;
 
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.HoeItem;
+import com.techiecrow.xenorite.init.XenoriteModTabs;
+import com.techiecrow.xenorite.init.XenoriteModItems;
 
-import com.techiecrow.xenorite.itemgroup.XenoriteCreativeTabItemGroup;
-import com.techiecrow.xenorite.XenoriteModElements;
-
-@XenoriteModElements.ModElement.Tag
-public class XenoriteHoeItem extends XenoriteModElements.ModElement {
-	@ObjectHolder("xenorite:xenorite_hoe")
-	public static final Item block = null;
-	public XenoriteHoeItem(XenoriteModElements instance) {
-		super(instance, 40);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new HoeItem(new IItemTier() {
-			public int getMaxUses() {
+public class XenoriteHoeItem extends HoeItem {
+	public XenoriteHoeItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 500;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 7f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 2f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 1;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 22;
 			}
 
-			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(XenoriteIngotItem.block, (int) (1)));
+			public Ingredient getRepairIngredient() {
+				return Ingredient.of(new ItemStack(XenoriteModItems.XENORITE_INGOT.get()));
 			}
-		}, -3f, new Item.Properties().group(XenoriteCreativeTabItemGroup.tab)) {
-		}.setRegistryName("xenorite_hoe"));
+		}, 0, -3f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
 	}
 }
