@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xenorite:heavenly_glint_block"
+    }
+  ],
+  "result": {
+    "item": "xenorite:heavenly_glint_ingot",
+    "count": 9
+  }
+}

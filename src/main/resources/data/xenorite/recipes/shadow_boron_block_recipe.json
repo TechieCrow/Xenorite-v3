@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xenorite:shadow_boron_ingot"
+    },
+    {
+      "item": "xenorite:shadow_boron_ingot"
+    },
+    {
+      "item": "xenorite:shadow_boron_ingot"
+    },
+    {
+      "item": "xenorite:shadow_boron_ingot"
+    },
+    {
+      "item": "xenorite:shadow_boron_ingot"
+    },
+    {
+      "item": "xenorite:shadow_boron_ingot"
+    },
+    {
+      "item": "xenorite:shadow_boron_ingot"
+    },
+    {
+      "item": "xenorite:shadow_boron_ingot"
+    },
+    {
+      "item": "xenorite:shadow_boron_ingot"
+    }
+  ],
+  "result": {
+    "item": "xenorite:shadow_boron_block",
+    "count": 1
+  }
+}

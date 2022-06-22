@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FinoriteArmor.body"
+      "value": "CUSTOM:FinoriteArmor.legs"
     },
     "name": "finorite_chestplate_recipe",
     "namespace": "mod"

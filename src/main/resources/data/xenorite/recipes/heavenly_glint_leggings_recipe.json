@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    "1": {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    "2": {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    "3": {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    "5": {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    "6": {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    "8": {
+      "item": "xenorite:heavenly_glint_ingot"
+    }
+  },
+  "result": {
+    "item": "xenorite:heavenly_glint_armor_leggings",
+    "count": 1
+  }
+}

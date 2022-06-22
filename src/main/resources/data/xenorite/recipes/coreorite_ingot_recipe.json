@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xenorite:coreorite_block"
+    }
+  ],
+  "result": {
+    "item": "xenorite:coreorite_ingot",
+    "count": 9
+  }
+}

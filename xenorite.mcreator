@@ -194,7 +194,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "xenorite_block_recript",
-      "path": "~/Recipes/Blocks"
+      "path": "~/Recipes/Blocks/Blocks"
     },
     {
       "name": "CoreoriteBlockRecipe",
@@ -203,7 +203,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coreorite_block_recipe",
-      "path": "~/Recipes/Blocks"
+      "path": "~/Recipes/Blocks/Blocks"
     },
     {
       "name": "FinoriteBlockRecipe",
@@ -212,7 +212,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "finorite_block_recipe",
-      "path": "~/Recipes/Blocks"
+      "path": "~/Recipes/Blocks/Blocks"
     },
     {
       "name": "XenoritePickaxeRecipe",
@@ -266,7 +266,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "xenorite_pickaxe",
-      "path": "~/Tools"
+      "path": "~/Tools/Pickaxes"
     },
     {
       "name": "CoreoritePickaxe",
@@ -275,7 +275,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coreorite_pickaxe",
-      "path": "~/Tools"
+      "path": "~/Tools/Pickaxes"
     },
     {
       "name": "FinoritePickaxe",
@@ -284,7 +284,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "finorite_pickaxe",
-      "path": "~/Tools"
+      "path": "~/Tools/Pickaxes"
     },
     {
       "name": "XenoriteShovel",
@@ -293,7 +293,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "xenorite_shovel",
-      "path": "~/Tools"
+      "path": "~/Tools/Shovels"
     },
     {
       "name": "CoreoriteShovel",
@@ -302,7 +302,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coreorite_shovel",
-      "path": "~/Tools"
+      "path": "~/Tools/Shovels"
     },
     {
       "name": "FinoriteShovel",
@@ -311,7 +311,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "finorite_shovel",
-      "path": "~/Tools"
+      "path": "~/Tools/Shovels"
     },
     {
       "name": "XenoriteAxe",
@@ -320,7 +320,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "xenorite_axe",
-      "path": "~/Tools"
+      "path": "~/Tools/Axes"
     },
     {
       "name": "CoreoriteAxe",
@@ -329,7 +329,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coreorite_axe",
-      "path": "~/Tools"
+      "path": "~/Tools/Axes"
     },
     {
       "name": "FinoriteAxe",
@@ -338,7 +338,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "finorite_axe",
-      "path": "~/Tools"
+      "path": "~/Tools/Axes"
     },
     {
       "name": "XenoriteHoe",
@@ -347,7 +347,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "xenorite_hoe",
-      "path": "~/Tools"
+      "path": "~/Tools/Hoes"
     },
     {
       "name": "CoreoriteHoe",
@@ -356,7 +356,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coreorite_hoe",
-      "path": "~/Tools"
+      "path": "~/Tools/Hoes"
     },
     {
       "name": "FinoriteHoe",
@@ -365,34 +365,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "finorite_hoe",
-      "path": "~/Tools"
-    },
-    {
-      "name": "XenoriteShears",
-      "type": "tool",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xenorite_shears",
-      "path": "~/Tools"
-    },
-    {
-      "name": "CoreoriteShears",
-      "type": "tool",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coreorite_shears",
-      "path": "~/Tools"
-    },
-    {
-      "name": "FinoriteShears",
-      "type": "tool",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "finorite_shears",
-      "path": "~/Tools"
+      "path": "~/Tools/Hoes"
     },
     {
       "name": "XenoriteSword",
@@ -510,33 +483,6 @@
       "locked_code": false,
       "registry_name": "finorite_hoe_recipe",
       "path": "~/Recipes/Tools/Hoes"
-    },
-    {
-      "name": "XenoriteShearsRecipe",
-      "type": "recipe",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xenorite_shears_recipe",
-      "path": "~/Recipes/Shears"
-    },
-    {
-      "name": "CoreoriteShearsRecipe",
-      "type": "recipe",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coreorite_shears_recipe",
-      "path": "~/Recipes/Shears"
-    },
-    {
-      "name": "FinoriteShearsRecipe",
-      "type": "recipe",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "finorite_shears_recipe",
-      "path": "~/Recipes/Shears"
     },
     {
       "name": "XenoriteArmor",
@@ -759,6 +705,405 @@
       "locked_code": false,
       "registry_name": "xen_pig",
       "path": "~/Mobs"
+    },
+    {
+      "name": "HeavenlyGlintOre",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "ShadowBoronOre",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "HeavenlyGlintBlock",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ShadowBoronBlock",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ShadowBoronBlockRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_block_recipe",
+      "path": "~/Recipes/Blocks/Blocks"
+    },
+    {
+      "name": "ShadowBoronIngot",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_ingot",
+      "path": "~/Items/Ingots"
+    },
+    {
+      "name": "HeavenlyGlintIngot",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_ingot",
+      "path": "~/Items/Ingots"
+    },
+    {
+      "name": "HeavenlyGlintBlockRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_block_recipe",
+      "path": "~/Recipes/Blocks/Blocks"
+    },
+    {
+      "name": "XenoriteIngotRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenorite_ingot_recipe",
+      "path": "~/Recipes/Blocks/Ingots"
+    },
+    {
+      "name": "CoreoriteIngotRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coreorite_ingot_recipe",
+      "path": "~/Recipes/Blocks/Ingots"
+    },
+    {
+      "name": "FinoriteIngotRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finorite_ingot_recipe",
+      "path": "~/Recipes/Blocks/Ingots"
+    },
+    {
+      "name": "ShadowBoronIngotRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_ingot_recipe",
+      "path": "~/Recipes/Blocks/Ingots"
+    },
+    {
+      "name": "HeavenlyGlintIngotRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_ingot_recipe",
+      "path": "~/Recipes/Blocks/Ingots"
+    },
+    {
+      "name": "HeavenlyGlintPickaxe",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_pickaxe",
+      "path": "~/Tools/Pickaxes"
+    },
+    {
+      "name": "ShadowBoronPickaxe",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_pickaxe",
+      "path": "~/Tools/Pickaxes"
+    },
+    {
+      "name": "HeavenlyGlintShovel",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_shovel",
+      "path": "~/Tools/Shovels"
+    },
+    {
+      "name": "ShadowBoronShovel",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_shovel",
+      "path": "~/Tools/Shovels"
+    },
+    {
+      "name": "HeavenlyGlintAxe",
+      "type": "tool",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_axe",
+      "path": "~/Tools/Axes"
+    },
+    {
+      "name": "ShadowBoronAxe",
+      "type": "tool",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_axe",
+      "path": "~/Tools/Axes"
+    },
+    {
+      "name": "HeavenlyGlintHoe",
+      "type": "tool",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_hoe",
+      "path": "~/Tools/Hoes"
+    },
+    {
+      "name": "ShadowBoronHoe",
+      "type": "tool",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_hoe",
+      "path": "~/Tools/Hoes"
+    },
+    {
+      "name": "HeavenlyGlintSword",
+      "type": "tool",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_sword",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "ShadowBoronSword",
+      "type": "tool",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_sword",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "HeavenlyGlintArmor",
+      "type": "armor",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "ShadowBoronArmor",
+      "type": "armor",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "ShadowBoronBootsRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_boots_recipe",
+      "path": "~/Recipes/Armor/Boots"
+    },
+    {
+      "name": "ShadowBoronLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_leggings_recipe",
+      "path": "~/Recipes/Armor/Leggings"
+    },
+    {
+      "name": "ShadowBoronChestplateRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_chestplate_recipe",
+      "path": "~/Recipes/Armor/Chestplates"
+    },
+    {
+      "name": "ShadowBoronHelmetRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_helmet_recipe",
+      "path": "~/Recipes/Armor/Helmets"
+    },
+    {
+      "name": "ShadowBoronSwordRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_sword_recipe",
+      "path": "~/Recipes/Weapons/Swords"
+    },
+    {
+      "name": "ShadowBoronPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_pickaxe_recipe",
+      "path": "~/Recipes/Tools/Pickaxes"
+    },
+    {
+      "name": "ShadowBoronAxeRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_axe_recipe",
+      "path": "~/Recipes/Tools/Axes"
+    },
+    {
+      "name": "ShadowBoronShovelRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_shovel_recipe",
+      "path": "~/Recipes/Tools/Shovels"
+    },
+    {
+      "name": "ShadowBoronHoeRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_boron_hoe_recipe",
+      "path": "~/Recipes/Tools/Hoes"
+    },
+    {
+      "name": "HeavenlyGlintBootsRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_boots_recipe",
+      "path": "~/Recipes/Armor/Boots"
+    },
+    {
+      "name": "HeavenlyGlintLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_leggings_recipe",
+      "path": "~/Recipes/Armor/Leggings"
+    },
+    {
+      "name": "HeavenlyGlintChestplateRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_chestplate_recipe",
+      "path": "~/Recipes/Armor/Chestplates"
+    },
+    {
+      "name": "HeavenlyGlintHelmetRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_helmet_recipe",
+      "path": "~/Recipes/Armor/Helmets"
+    },
+    {
+      "name": "HeavenlyGlintSwordRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_sword_recipe",
+      "path": "~/Recipes/Weapons/Swords"
+    },
+    {
+      "name": "HeavenlyGlintPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_pickaxe_recipe",
+      "path": "~/Recipes/Tools/Pickaxes"
+    },
+    {
+      "name": "HeavenlyGlintAxeRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_axe_recipe",
+      "path": "~/Recipes/Tools/Axes"
+    },
+    {
+      "name": "HeavenlyGlintShovelRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_shovel_recipe",
+      "path": "~/Recipes/Tools/Shovels"
+    },
+    {
+      "name": "HeavenlyGlintHoeRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenly_glint_hoe_recipe",
+      "path": "~/Recipes/Tools/Hoes"
     }
   ],
   "variable_elements": [],
@@ -791,32 +1136,43 @@
   "language_map": {
     "en_us": {
       "item.xenorite.xenorite_sword": "Xenorite Sword",
-      "item.xenorite.xenorite_shears": "Xenorite Shears",
+      "item.xenorite.heavenly_glint_axe": "Heavenly Glint Axe",
       "item.xenorite.xenorite_hoe": "Xenorite Hoe",
       "subtitles.xen_beast_idle": "Xen Beast Idle Noises",
+      "item.xenorite.shadow_boron_axe": "Shadow Boron Axe",
+      "item.xenorite.heavenly_glint_shovel": "Heavenly Glint Shovel",
       "item.xenorite.coreorite_axe": "Coreorite Axe",
+      "item.xenorite.heavenly_glint_armor_helmet": "Heavenly Glint Helmet",
       "item.xenorite.coreorite_sword": "Coreorite Sword",
+      "item.xenorite.heavenly_glint_ingot": "Heavenly Glint Ingot",
       "item.xenorite.finorite_axe": "Finorite Axe",
-      "item.xenorite.coreorite_armor_leggings": "Coreorite Leggings",
       "entity.xenorite.xen_pig": "Xen Pig",
+      "item.xenorite.coreorite_armor_leggings": "Coreorite Leggings",
       "item.xenorite.coreorite_armorhelmet": "Coreorite Helmet",
       "item.xenorite.coreorite_armorlegs": "Coreorite Leggings",
       "block.xenorite.finorite_block": "Finorite Block",
-      "item.xenorite.coreorite_ingot": "Coreorite Ingot",
       "item.xenorite.finorite_armorhelmet": "Finorite Helmet",
-      "item.xenorite.finorite_shears": "Finorite Shears",
+      "item.xenorite.coreorite_ingot": "Coreorite Ingot",
       "item.xenorite.coreorite_armor_chestplate": "Coreorite Body",
-      "block.xenorite.xenorite_smelter": "Xenorite Smelter",
       "item.xenorite.xen_pig_spawn_egg": "Xen Pig Spawn Egg",
+      "block.xenorite.xenorite_smelter": "Xenorite Smelter",
       "item.xenorite.xenorite_ingot": "Xenorite Ingot",
       "item.xenorite.coreorite_armorbody": "Coreorite Body",
+      "item.xenorite.shadow_boron_armor_helmet": "Heavenly Glint Helmet",
+      "item.xenorite.shadow_boron_ingot": "Shadow Boron Ingot",
+      "item.xenorite.shadow_boron_armor_leggings": "Heavenly Glint Leggings",
       "item.xenorite.xenorite_shovel": "Xenorite Shovel",
+      "block.xenorite.shadow_boron_block": "Shadow Boron Block",
       "item.xenorite.xenorite_armorhelmet": "Xenorite Helmet",
       "entity.xenorite.xen_beast": "Xen Beast",
       "subtitles.xen_beast_death": "Xen Beast Dying",
       "item.xenorite.finorite_armor_helmet": "Finorite Helmet",
+      "block.xenorite.shadow_boron_ore": "Shadow Boron Ore",
       "item.xenorite.xen_beast_spawn_egg": "Xen Beast Spawn Egg",
+      "item.xenorite.shadow_boron_armor_chestplate": "Heavenly Glint Body",
       "item.xenorite.finorite_armorboots": "Finorite Boots",
+      "item.xenorite.heavenly_glint_armor_leggings": "Heavenly Glint Leggings",
+      "item.xenorite.heavenly_glint_armor_boots": "Heavenly Glint Boots",
       "item.xenorite.coreorite_hoe": "Coreorite Hoe",
       "item.xenorite.coreorite_armor_helmet": "Coreorite Helmet",
       "item.xenorite.finorite_ingot": "Finorite Ingot",
@@ -825,30 +1181,40 @@
       "item.xenorite.finorite_armorbody": "Finorite Body",
       "itemGroup.tabxenorite_creative_tab": "Xenorite",
       "subtitles.xen_beast_hurt": "Xen Beast Hurting",
+      "item.xenorite.heavenly_glint_pickaxe": "Heavenly Glint Pickaxe",
       "block.xenorite.coreorite_block": "Coreorite Block",
       "item.xenorite.finorite_pickaxe": "Finorite Pickaxe",
       "item.xenorite.xenorite_armor_leggings": "Xenorite Leggings",
       "item.xenorite.coreorite_armor_boots": "Coreorite Boots",
+      "block.xenorite.heavenly_glint_ore": "Heavenly Glint Ore",
+      "item.xenorite.shadow_boron_shovel": "Shadow Boron Shovel",
+      "item.xenorite.heavenly_glint_hoe": "Heavenly Glint Hoe",
       "item.xenorite.xenorite_armorbody": "Xenorite Body",
       "item.xenorite.xenorite_armorlegs": "Xenorite Leggings",
       "item.xenorite.finorite_shovel": "Finorite Shovel",
+      "item.xenorite.shadow_boron_pickaxe": "Shadow Boron Pickaxe",
       "item.xenorite.xenorite_pickaxe": "Xenorite Pickaxe",
       "item.xenorite.finorite_armor_boots": "Finorite Boots",
+      "item.xenorite.shadow_boron_hoe": "Shadow Boron Hoe",
       "item.xenorite.finorite_armorlegs": "Finorite Leggings",
       "item.xenorite.finorite_armor_leggings": "Finorite Leggings",
       "block.xenorite.xenorite_block": "Xenorite Block",
+      "item.xenorite.heavenly_glint_armor_chestplate": "Heavenly Glint Body",
       "item.xenorite.finorite_sword": "Finorite Sword",
+      "item.xenorite.shadow_boron_armor_boots": "Heavenly Glint Boots",
       "item.xenorite.xen_book_vol_1": "Xen Book Vol 1",
       "item.xenorite.finorite_armor_chestplate": "Finorite Body",
-      "item.xenorite.coreorite_shears": "Coreorite Shears",
       "block.xenorite.xenorite_ore": "Xenorite Ore",
+      "item.xenorite.heavenly_glint_sword": "Heavenly Glint Sword",
       "block.xenorite.finorite_ore": "Finorite Ore",
       "item.xenorite.xenorite_armor_chestplate": "Xenorite Body",
       "item.xenorite.coreorite_shovel": "Coreorite Shovel",
       "item.xenorite.xenorite_armor_helmet": "Xenorite Helmet",
+      "item.xenorite.shadow_boron_sword": "Shadow Boron Sword",
       "block.xenorite.coreorite_ore": "Coreorite Ore",
       "item.xenorite.xenorite_axe": "Xenorite Axe",
       "item.xenorite.xenorite_armorboots": "Xenorite Boots",
+      "block.xenorite.heavenly_glint_block": "Heavenly Glint Block",
       "item.xenorite.xenorite_armor_boots": "Xenorite Boots",
       "item.xenorite.coreorite_pickaxe": "Coreorite Pickaxe"
     }
@@ -894,11 +1260,16 @@
         "children": [
           {
             "name": "Blocks",
-            "children": []
-          },
-          {
-            "name": "Shears",
-            "children": []
+            "children": [
+              {
+                "name": "Blocks",
+                "children": []
+              },
+              {
+                "name": "Ingots",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Armor",
@@ -955,7 +1326,24 @@
       },
       {
         "name": "Tools",
-        "children": []
+        "children": [
+          {
+            "name": "Pickaxes",
+            "children": []
+          },
+          {
+            "name": "Shovels",
+            "children": []
+          },
+          {
+            "name": "Axes",
+            "children": []
+          },
+          {
+            "name": "Hoes",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Weapons",

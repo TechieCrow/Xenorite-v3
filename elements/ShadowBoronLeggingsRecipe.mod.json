@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ShadowBoronIngot"
+      },
+      {
+        "value": "CUSTOM:ShadowBoronIngot"
+      },
+      {
+        "value": "CUSTOM:ShadowBoronIngot"
+      },
+      {
+        "value": "CUSTOM:ShadowBoronIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ShadowBoronIngot"
+      },
+      {
+        "value": "CUSTOM:ShadowBoronIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ShadowBoronIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ShadowBoronArmor.legs"
+    },
+    "name": "shadow_boron_leggings_recipe",
+    "namespace": "mod"
+  }
+}

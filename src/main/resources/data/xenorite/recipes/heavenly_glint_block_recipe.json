@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    {
+      "item": "xenorite:heavenly_glint_ingot"
+    },
+    {
+      "item": "xenorite:heavenly_glint_ingot"
+    }
+  ],
+  "result": {
+    "item": "xenorite:heavenly_glint_block",
+    "count": 1
+  }
+}

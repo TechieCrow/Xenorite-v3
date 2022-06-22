@@ -23,6 +23,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 import com.techiecrow.xenorite.world.features.ores.XenoriteOreFeature;
+import com.techiecrow.xenorite.world.features.ores.ShadowBoronOreFeature;
+import com.techiecrow.xenorite.world.features.ores.HeavenlyGlintOreFeature;
 import com.techiecrow.xenorite.world.features.ores.FinoriteOreFeature;
 import com.techiecrow.xenorite.world.features.ores.CoreoriteOreFeature;
 import com.techiecrow.xenorite.XenoriteMod;
@@ -37,6 +39,12 @@ public class XenoriteModFeatures {
 			GenerationStep.Decoration.UNDERGROUND_ORES, CoreoriteOreFeature.GENERATE_BIOMES, CoreoriteOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> FINORITE_ORE = register("finorite_ore", FinoriteOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, FinoriteOreFeature.GENERATE_BIOMES, FinoriteOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> HEAVENLY_GLINT_ORE = register("heavenly_glint_ore", HeavenlyGlintOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, HeavenlyGlintOreFeature.GENERATE_BIOMES,
+					HeavenlyGlintOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SHADOW_BORON_ORE = register("shadow_boron_ore", ShadowBoronOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, ShadowBoronOreFeature.GENERATE_BIOMES,
+					ShadowBoronOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

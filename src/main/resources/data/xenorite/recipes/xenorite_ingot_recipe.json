@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xenorite:xenorite_block"
+    }
+  ],
+  "result": {
+    "item": "xenorite:xenorite_ingot",
+    "count": 9
+  }
+}

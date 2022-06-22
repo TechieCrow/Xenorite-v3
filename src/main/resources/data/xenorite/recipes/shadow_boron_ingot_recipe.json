@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xenorite:shadow_boron_block"
+    }
+  ],
+  "result": {
+    "item": "xenorite:shadow_boron_ingot",
+    "count": 9
+  }
+}

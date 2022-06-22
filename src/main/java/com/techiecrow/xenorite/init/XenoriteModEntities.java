@@ -24,12 +24,12 @@ import com.techiecrow.xenorite.XenoriteMod;
 public class XenoriteModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, XenoriteMod.MODID);
 	public static final RegistryObject<EntityType<XenBeastEntity>> XEN_BEAST = register("xen_beast",
-			EntityType.Builder.<XenBeastEntity>of(XenBeastEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+			EntityType.Builder.<XenBeastEntity>of(XenBeastEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(50)
 					.setUpdateInterval(3).setCustomClientFactory(XenBeastEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<XenPigEntity>> XEN_PIG = register("xen_pig",
-			EntityType.Builder.<XenPigEntity>of(XenPigEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+			EntityType.Builder.<XenPigEntity>of(XenPigEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(XenPigEntity::new)
 
 					.sized(0.9f, 0.9f));
