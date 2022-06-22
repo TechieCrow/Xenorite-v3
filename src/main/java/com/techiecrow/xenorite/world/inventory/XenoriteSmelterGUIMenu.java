@@ -75,17 +75,17 @@ public class XenoriteSmelterGUIMenu extends AbstractContainerMenu implements Sup
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 8, 48) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 53) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 52, 48) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 52, 53) {
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 133, 48) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 133, 53) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 48) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 53) {
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

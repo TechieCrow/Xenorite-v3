@@ -11,18 +11,18 @@ import net.minecraft.client.Minecraft;
 
 import java.util.HashMap;
 
-import com.techiecrow.xenorite.world.inventory.XenoriteSmelterGUIMenu;
+import com.techiecrow.xenorite.world.inventory.XenBookVol1GUIMenu;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class XenoriteSmelterGUIScreen extends AbstractContainerScreen<XenoriteSmelterGUIMenu> {
-	private final static HashMap<String, Object> guistate = XenoriteSmelterGUIMenu.guistate;
+public class XenBookVol1GUIScreen extends AbstractContainerScreen<XenBookVol1GUIMenu> {
+	private final static HashMap<String, Object> guistate = XenBookVol1GUIMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public XenoriteSmelterGUIScreen(XenoriteSmelterGUIMenu container, Inventory inventory, Component text) {
+	public XenBookVol1GUIScreen(XenBookVol1GUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -32,8 +32,6 @@ public class XenoriteSmelterGUIScreen extends AbstractContainerScreen<XenoriteSm
 		this.imageWidth = 176;
 		this.imageHeight = 166;
 	}
-
-	private static final ResourceLocation texture = new ResourceLocation("xenorite:textures/xenorite_smelter_gui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -47,8 +45,10 @@ public class XenoriteSmelterGUIScreen extends AbstractContainerScreen<XenoriteSm
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		RenderSystem.setShaderTexture(0, texture);
-		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("xenorite:textures/book.png"));
+		this.blit(ms, this.leftPos + 16, this.topPos + -11, 0, 0, 146, 180, 146, 180);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -68,10 +68,15 @@ public class XenoriteSmelterGUIScreen extends AbstractContainerScreen<XenoriteSm
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Xenorite Smelter", 6, 7, -16777216);
-		this.font.draw(poseStack, "Fuel", 6, 34, -16777216);
-		this.font.draw(poseStack, "Ingots", 58, 34, -16777216);
-		this.font.draw(poseStack, "Output", 123, 34, -16777216);
+		this.font.draw(poseStack, "Xen Book vol 1", 52, -2, -16777216);
+		this.font.draw(poseStack, "The evil that is in", 34, 16, -16777216);
+		this.font.draw(poseStack, "this world almost", 34, 25, -16777216);
+		this.font.draw(poseStack, "of ignorance and good", 34, 34, -16777216);
+		this.font.draw(poseStack, "intentions may do as", 34, 43, -16777216);
+		this.font.draw(poseStack, "much harm as", 34, 52, -16777216);
+		this.font.draw(poseStack, "malevolence if they", 34, 61, -16777216);
+		this.font.draw(poseStack, "lack understanding.", 34, 70, -16777216);
+		this.font.draw(poseStack, "-Albert Camus", 70, 142, -16777216);
 	}
 
 	@Override

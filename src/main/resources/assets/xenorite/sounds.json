@@ -1,1 +1,32 @@
-{}
+{
+  "xen_beast_idle": {
+    "category": "hostile",
+    "subtitle": "subtitles.xen_beast_idle",
+    "sounds": [
+      {
+        "name": "xenorite:xenbeastidle",
+        "stream": false
+      }
+    ]
+  },
+  "xen_beast_death": {
+    "category": "hostile",
+    "subtitle": "subtitles.xen_beast_death",
+    "sounds": [
+      {
+        "name": "xenorite:xenbeastdeath",
+        "stream": false
+      }
+    ]
+  },
+  "xen_beast_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.xen_beast_hurt",
+    "sounds": [
+      {
+        "name": "xenorite:xenbeasthurt",
+        "stream": false
+      }
+    ]
+  }
+}

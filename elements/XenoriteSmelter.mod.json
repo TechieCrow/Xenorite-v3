@@ -13,6 +13,8 @@
     "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -56,6 +58,9 @@
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
     "colorOnMap": "STONE",
     "creativePickItem": {
       "value": ""
@@ -74,6 +79,21 @@
     "soundOnStep": {
       "value": "STONE"
     },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
@@ -90,7 +110,7 @@
     "inventorySize": 4,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
-    "inventoryComparatorPower": false,
+    "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [
       3
     ],
@@ -106,6 +126,7 @@
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
+    "fluidRestrictions": [],
     "onRightClicked": {
       "name": "XenoriteSmelterOnBlockRightClicked"
     },

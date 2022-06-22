@@ -18,23 +18,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "XenoriteSmelterGUITransferedFromSlot",
-      "type": "procedure",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xenorite_smelter_gui_transfered_from_slot",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "XenoriteCreativeTab",
       "type": "tab",
       "sortid": 4,
@@ -59,7 +42,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "xenorite_smelter_gui",
-      "path": "~/Procedures"
+      "path": "~/GUIs"
     },
     {
       "name": "XenoriteSmelterOnBlockRightClicked",
@@ -184,7 +167,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "xenorite_ingot",
-      "path": "~/Items"
+      "path": "~/Items/Ingots"
     },
     {
       "name": "CoreoriteIngot",
@@ -193,7 +176,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coreorite_ingot",
-      "path": "~/Items"
+      "path": "~/Items/Ingots"
     },
     {
       "name": "FinoriteIngot",
@@ -202,7 +185,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "finorite_ingot",
-      "path": "~/Items"
+      "path": "~/Items/Ingots"
     },
     {
       "name": "XenoriteBlockRecript",
@@ -707,32 +690,132 @@
       "locked_code": false,
       "registry_name": "finorite_boots_recipe",
       "path": "~/Recipes/Armor/Boots"
+    },
+    {
+      "name": "XenBookVol1GUI",
+      "type": "gui",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_book_vol_1_gui",
+      "path": "~/GUIs"
+    },
+    {
+      "name": "XenBookVol1",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_book_vol_1",
+      "path": "~/Items/Books"
+    },
+    {
+      "name": "XenBookVol1RightClicked",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_book_vol_1_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "XenBeast",
+      "type": "livingentity",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_beast",
+      "path": "~/Mobs"
+    },
+    {
+      "name": "XenPig",
+      "type": "livingentity",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xen_pig",
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "xen_beast_idle",
+      "files": [
+        "xenbeastidle"
+      ],
+      "category": "hostile",
+      "subtitle": "Xen Beast Idle Noises"
+    },
+    {
+      "name": "xen_beast_death",
+      "files": [
+        "xenbeastdeath"
+      ],
+      "category": "hostile",
+      "subtitle": "Xen Beast Dying"
+    },
+    {
+      "name": "xen_beast_hurt",
+      "files": [
+        "xenbeasthurt"
+      ],
+      "category": "hostile",
+      "subtitle": "Xen Beast Hurting"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.xenorite.xenorite_sword": "Xenorite Sword",
       "item.xenorite.xenorite_shears": "Xenorite Shears",
       "item.xenorite.xenorite_hoe": "Xenorite Hoe",
+      "subtitles.xen_beast_idle": "Xen Beast Idle Noises",
       "item.xenorite.coreorite_axe": "Coreorite Axe",
       "item.xenorite.coreorite_sword": "Coreorite Sword",
       "item.xenorite.finorite_axe": "Finorite Axe",
       "item.xenorite.coreorite_armor_leggings": "Coreorite Leggings",
+      "entity.xenorite.xen_pig": "Xen Pig",
       "item.xenorite.coreorite_armorhelmet": "Coreorite Helmet",
       "item.xenorite.coreorite_armorlegs": "Coreorite Leggings",
       "block.xenorite.finorite_block": "Finorite Block",
-      "item.xenorite.finorite_armorhelmet": "Finorite Helmet",
       "item.xenorite.coreorite_ingot": "Coreorite Ingot",
-      "item.xenorite.coreorite_armor_chestplate": "Coreorite Body",
+      "item.xenorite.finorite_armorhelmet": "Finorite Helmet",
       "item.xenorite.finorite_shears": "Finorite Shears",
+      "item.xenorite.coreorite_armor_chestplate": "Coreorite Body",
       "block.xenorite.xenorite_smelter": "Xenorite Smelter",
+      "item.xenorite.xen_pig_spawn_egg": "Xen Pig Spawn Egg",
       "item.xenorite.xenorite_ingot": "Xenorite Ingot",
       "item.xenorite.coreorite_armorbody": "Coreorite Body",
       "item.xenorite.xenorite_shovel": "Xenorite Shovel",
       "item.xenorite.xenorite_armorhelmet": "Xenorite Helmet",
+      "entity.xenorite.xen_beast": "Xen Beast",
+      "subtitles.xen_beast_death": "Xen Beast Dying",
       "item.xenorite.finorite_armor_helmet": "Finorite Helmet",
+      "item.xenorite.xen_beast_spawn_egg": "Xen Beast Spawn Egg",
       "item.xenorite.finorite_armorboots": "Finorite Boots",
       "item.xenorite.coreorite_hoe": "Coreorite Hoe",
       "item.xenorite.coreorite_armor_helmet": "Coreorite Helmet",
@@ -741,6 +824,7 @@
       "item.xenorite.finorite_hoe": "Finorite Hoe",
       "item.xenorite.finorite_armorbody": "Finorite Body",
       "itemGroup.tabxenorite_creative_tab": "Xenorite",
+      "subtitles.xen_beast_hurt": "Xen Beast Hurting",
       "block.xenorite.coreorite_block": "Coreorite Block",
       "item.xenorite.finorite_pickaxe": "Finorite Pickaxe",
       "item.xenorite.xenorite_armor_leggings": "Xenorite Leggings",
@@ -754,6 +838,7 @@
       "item.xenorite.finorite_armor_leggings": "Finorite Leggings",
       "block.xenorite.xenorite_block": "Xenorite Block",
       "item.xenorite.finorite_sword": "Finorite Sword",
+      "item.xenorite.xen_book_vol_1": "Xen Book Vol 1",
       "item.xenorite.finorite_armor_chestplate": "Finorite Body",
       "item.xenorite.coreorite_shears": "Coreorite Shears",
       "block.xenorite.xenorite_ore": "Xenorite Ore",
@@ -793,7 +878,16 @@
       },
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "Ingots",
+            "children": []
+          },
+          {
+            "name": "Books",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Recipes",
@@ -870,6 +964,14 @@
       {
         "name": "Armor",
         "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
       }
     ]
   },
@@ -878,7 +980,8 @@
     "modName": "Xenorite",
     "version": "3.0.0",
     "author": "TechieCrow",
-    "websiteURL": "https://github.com/TechieCrow/Xenorite",
+    "websiteURL": "https://github.com/TechieCrow/Xenorite-v3",
+    "license": "Not specified",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],

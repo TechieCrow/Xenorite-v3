@@ -7,6 +7,7 @@ package com.techiecrow.xenorite.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -21,6 +22,7 @@ import com.techiecrow.xenorite.item.XenoriteIngotItem;
 import com.techiecrow.xenorite.item.XenoriteHoeItem;
 import com.techiecrow.xenorite.item.XenoriteAxeItem;
 import com.techiecrow.xenorite.item.XenoriteArmorItem;
+import com.techiecrow.xenorite.item.XenBookVol1Item;
 import com.techiecrow.xenorite.item.FinoriteSwordItem;
 import com.techiecrow.xenorite.item.FinoriteShovelItem;
 import com.techiecrow.xenorite.item.FinoriteShearsItem;
@@ -88,6 +90,11 @@ public class XenoriteModItems {
 	public static final RegistryObject<Item> FINORITE_ARMOR_LEGGINGS = REGISTRY.register("finorite_armor_leggings",
 			() -> new FinoriteArmorItem.Leggings());
 	public static final RegistryObject<Item> FINORITE_ARMOR_BOOTS = REGISTRY.register("finorite_armor_boots", () -> new FinoriteArmorItem.Boots());
+	public static final RegistryObject<Item> XEN_BOOK_VOL_1 = REGISTRY.register("xen_book_vol_1", () -> new XenBookVol1Item());
+	public static final RegistryObject<Item> XEN_BEAST = REGISTRY.register("xen_beast_spawn_egg",
+			() -> new ForgeSpawnEggItem(XenoriteModEntities.XEN_BEAST, -1, -1, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB)));
+	public static final RegistryObject<Item> XEN_PIG = REGISTRY.register("xen_pig_spawn_egg",
+			() -> new ForgeSpawnEggItem(XenoriteModEntities.XEN_PIG, -1, -1, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

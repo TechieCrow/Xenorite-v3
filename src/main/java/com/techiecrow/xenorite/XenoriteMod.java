@@ -33,6 +33,7 @@ import java.util.function.BiConsumer;
 import com.techiecrow.xenorite.init.XenoriteModTabs;
 import com.techiecrow.xenorite.init.XenoriteModItems;
 import com.techiecrow.xenorite.init.XenoriteModFeatures;
+import com.techiecrow.xenorite.init.XenoriteModEntities;
 import com.techiecrow.xenorite.init.XenoriteModBlocks;
 import com.techiecrow.xenorite.init.XenoriteModBlockEntities;
 
@@ -50,7 +51,7 @@ public class XenoriteMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		XenoriteModBlocks.REGISTRY.register(bus);
 		XenoriteModItems.REGISTRY.register(bus);
-
+		XenoriteModEntities.REGISTRY.register(bus);
 		XenoriteModBlockEntities.REGISTRY.register(bus);
 		XenoriteModFeatures.REGISTRY.register(bus);
 
