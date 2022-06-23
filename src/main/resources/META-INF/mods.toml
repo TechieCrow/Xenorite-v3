@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Not specified"
+license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="xenorite"
@@ -9,6 +9,9 @@ displayName="Xenorite"
 credits="Created by TechieCrow and Chewablebliss"
 displayURL="https://github.com/TechieCrow/Xenorite-v3"
 authors="TechieCrow"
+description='''
+Xenorite is a mod for Minecraft that adds more ores to the game, these ores are either good ore evil in some way or another, giving you good or bad buffs and other interesting effects, with these ores comes items such as tools, weapons and armour just like in vanilla Minecraft but of course with those interesting effects.
+'''
 
 [[dependencies.xenorite]]
     modId="minecraft"

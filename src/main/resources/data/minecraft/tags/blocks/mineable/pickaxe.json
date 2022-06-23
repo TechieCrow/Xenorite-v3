@@ -1,16 +1,16 @@
 {
   "replace": false,
   "values": [
-    "xenorite:xenorite_smelter",
     "xenorite:xenorite_ore",
     "xenorite:coreorite_ore",
     "xenorite:finorite_ore",
+    "xenorite:heavenly_glint_ore",
+    "xenorite:shadow_boron_ore",
     "xenorite:xenorite_block",
     "xenorite:coreorite_block",
     "xenorite:finorite_block",
-    "xenorite:heavenly_glint_ore",
-    "xenorite:shadow_boron_ore",
     "xenorite:heavenly_glint_block",
-    "xenorite:shadow_boron_block"
+    "xenorite:shadow_boron_block",
+    "xenorite:xenorite_smelter"
   ]
 }
