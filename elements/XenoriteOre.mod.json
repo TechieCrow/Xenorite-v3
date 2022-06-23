@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -94,7 +94,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 7,
+    "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 2,
     "spawnParticles": true,
@@ -121,6 +121,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "XenoriteOreHurtPlayer"
+    },
+    "onDestroyedByPlayer": {
+      "name": "XenoriteOreHurtPlayer"
+    },
+    "onStartToDestroy": {
+      "name": "XenoriteOreHurtPlayer"
+    },
+    "onEntityWalksOn": {
+      "name": "XenoriteOreHurtPlayer"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],

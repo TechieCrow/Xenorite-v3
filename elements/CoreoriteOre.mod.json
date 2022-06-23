@@ -35,7 +35,7 @@
     "name": "Coreorite Ore",
     "specialInfo": [],
     "hardness": 3.0,
-    "resistance": 10.0,
+    "resistance": 5.0,
     "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -94,7 +94,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 7,
+    "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 2,
     "spawnParticles": true,
@@ -121,6 +121,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "CoreoriteOreHurtPlayer"
+    },
+    "onDestroyedByPlayer": {
+      "name": "CoreoriteOreHurtPlayer"
+    },
+    "onStartToDestroy": {
+      "name": "CoreoriteOreHurtPlayer"
+    },
+    "onEntityWalksOn": {
+      "name": "CoreoriteOreHurtPlayer"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],

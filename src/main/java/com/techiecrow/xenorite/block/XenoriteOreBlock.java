@@ -1,14 +1,14 @@
 
 package com.techiecrow.xenorite.block;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -19,7 +19,11 @@ import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
@@ -27,9 +31,11 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
+import com.techiecrow.xenorite.procedures.XenoriteOreHurtPlayerProcedure;
+
 public class XenoriteOreBlock extends FallingBlock {
 	public XenoriteOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(3f, 10f).lightLevel(s -> 7).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(3f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -74,5 +80,39 @@ public class XenoriteOreBlock extends FallingBlock {
 			double dz = (random.nextFloat() - 0.5D) * 0.5D;
 			world.addParticle(ParticleTypes.FIREWORK, x0, y0, z0, dx, dy, dz);
 		}
+	}
+
+	@Override
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
+		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
+		XenoriteOreHurtPlayerProcedure.execute(entity);
+		return retval;
+	}
+
+	@Override
+	public void attack(BlockState blockstate, Level world, BlockPos pos, Player entity) {
+		super.attack(blockstate, world, pos, entity);
+		XenoriteOreHurtPlayerProcedure.execute(entity);
+	}
+
+	@Override
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
+		super.stepOn(world, pos, blockstate, entity);
+		XenoriteOreHurtPlayerProcedure.execute(entity);
+	}
+
+	@Override
+	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
+		super.use(blockstate, world, pos, entity, hand, hit);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		double hitX = hit.getLocation().x;
+		double hitY = hit.getLocation().y;
+		double hitZ = hit.getLocation().z;
+		Direction direction = hit.getDirection();
+
+		XenoriteOreHurtPlayerProcedure.execute(entity);
+		return InteractionResult.SUCCESS;
 	}
 }

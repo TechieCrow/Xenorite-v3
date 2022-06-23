@@ -1,14 +1,13 @@
 
 package com.techiecrow.xenorite.block;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
@@ -18,9 +17,11 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
+import com.techiecrow.xenorite.procedures.NetherOresPotionEffectsProcedure;
+
 public class ShadowBoronOreBlock extends Block {
 	public ShadowBoronOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(3f, 10f).lightLevel(s -> 7).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(3f, 5f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -41,5 +42,11 @@ public class ShadowBoronOreBlock extends Block {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@Override
+	public void attack(BlockState blockstate, Level world, BlockPos pos, Player entity) {
+		super.attack(blockstate, world, pos, entity);
+		NetherOresPotionEffectsProcedure.execute(entity);
 	}
 }

@@ -15,7 +15,7 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Smelters"
     },
     {
       "name": "XenoriteCreativeTab",
@@ -75,7 +75,7 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Smelters"
     },
     {
       "name": "XenoriteSmelterUpdateTick",
@@ -104,7 +104,7 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Smelters"
     },
     {
       "name": "XenoriteOre",
@@ -1104,6 +1104,74 @@
       "locked_code": false,
       "registry_name": "heavenly_glint_hoe_recipe",
       "path": "~/Recipes/Tools/Hoes"
+    },
+    {
+      "name": "XenoriteOreHurtPlayer",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenorite_ore_hurt_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Ores"
+    },
+    {
+      "name": "CoreoriteOreHurtPlayer",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coreorite_ore_hurt_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Ores"
+    },
+    {
+      "name": "FinoriteOreHurtPlayer",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finorite_ore_hurt_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Ores"
+    },
+    {
+      "name": "NetherOresPotionEffects",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_ores_potion_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Ores"
     }
   ],
   "variable_elements": [],
@@ -1159,6 +1227,7 @@
       "item.xenorite.xenorite_ingot": "Xenorite Ingot",
       "item.xenorite.coreorite_armorbody": "Coreorite Body",
       "item.xenorite.shadow_boron_armor_helmet": "Heavenly Glint Helmet",
+      "death.attack.xenorite.ore": "%1$s was killed Xenorite ore... What a shame.",
       "item.xenorite.shadow_boron_ingot": "Shadow Boron Ingot",
       "item.xenorite.shadow_boron_armor_leggings": "Heavenly Glint Leggings",
       "item.xenorite.xenorite_shovel": "Xenorite Shovel",
@@ -1174,6 +1243,7 @@
       "item.xenorite.heavenly_glint_armor_leggings": "Heavenly Glint Leggings",
       "item.xenorite.heavenly_glint_armor_boots": "Heavenly Glint Boots",
       "item.xenorite.coreorite_hoe": "Coreorite Hoe",
+      "death.attack.finorite.ore": "%1$s was killed Finorite ore... What a shame.",
       "item.xenorite.coreorite_armor_helmet": "Coreorite Helmet",
       "item.xenorite.finorite_ingot": "Finorite Ingot",
       "item.xenorite.coreorite_armorboots": "Coreorite Boots",
@@ -1204,6 +1274,7 @@
       "item.xenorite.shadow_boron_armor_boots": "Heavenly Glint Boots",
       "item.xenorite.xen_book_vol_1": "Xen Book Vol 1",
       "item.xenorite.finorite_armor_chestplate": "Finorite Body",
+      "death.attack.coreorite.ore": "%1$s was killed Coreorite ore... What a shame.",
       "block.xenorite.xenorite_ore": "Xenorite Ore",
       "item.xenorite.heavenly_glint_sword": "Heavenly Glint Sword",
       "block.xenorite.finorite_ore": "Finorite Ore",
@@ -1224,7 +1295,16 @@
     "children": [
       {
         "name": "Procedures",
-        "children": []
+        "children": [
+          {
+            "name": "Smelters",
+            "children": []
+          },
+          {
+            "name": "Ores",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Creative Tabs",
