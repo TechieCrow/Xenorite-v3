@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import com.techiecrow.xenorite.block.XenoriteSmelterBlock;
 import com.techiecrow.xenorite.block.XenoriteOreBlock;
 import com.techiecrow.xenorite.block.XenoriteBlockBlock;
+import com.techiecrow.xenorite.block.SoulTableBlock;
 import com.techiecrow.xenorite.block.ShadowBoronOreBlock;
 import com.techiecrow.xenorite.block.ShadowBoronBlockBlock;
 import com.techiecrow.xenorite.block.HeavenlyGlintOreBlock;
@@ -36,4 +37,5 @@ public class XenoriteModBlocks {
 	public static final RegistryObject<Block> HEAVENLY_GLINT_BLOCK = REGISTRY.register("heavenly_glint_block", () -> new HeavenlyGlintBlockBlock());
 	public static final RegistryObject<Block> SHADOW_BORON_BLOCK = REGISTRY.register("shadow_boron_block", () -> new ShadowBoronBlockBlock());
 	public static final RegistryObject<Block> XENORITE_SMELTER = REGISTRY.register("xenorite_smelter", () -> new XenoriteSmelterBlock());
+	public static final RegistryObject<Block> SOUL_TABLE = REGISTRY.register("soul_table", () -> new SoulTableBlock());
 }

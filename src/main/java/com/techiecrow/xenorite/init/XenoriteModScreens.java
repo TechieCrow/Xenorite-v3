@@ -13,6 +13,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 
 import com.techiecrow.xenorite.client.gui.XenoriteSmelterGUIScreen;
 import com.techiecrow.xenorite.client.gui.XenBookVol1GUIScreen;
+import com.techiecrow.xenorite.client.gui.SoulTableGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class XenoriteModScreens {
@@ -21,6 +22,7 @@ public class XenoriteModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(XenoriteModMenus.XENORITE_SMELTER_GUI, XenoriteSmelterGUIScreen::new);
 			MenuScreens.register(XenoriteModMenus.XEN_BOOK_VOL_1_GUI, XenBookVol1GUIScreen::new);
+			MenuScreens.register(XenoriteModMenus.SOUL_TABLE_GUI, SoulTableGUIScreen::new);
 		});
 	}
 }

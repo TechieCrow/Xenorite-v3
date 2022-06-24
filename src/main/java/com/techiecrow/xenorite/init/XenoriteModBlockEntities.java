@@ -12,12 +12,15 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import com.techiecrow.xenorite.block.entity.XenoriteSmelterBlockEntity;
+import com.techiecrow.xenorite.block.entity.SoulTableBlockEntity;
 import com.techiecrow.xenorite.XenoriteMod;
 
 public class XenoriteModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, XenoriteMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> XENORITE_SMELTER = register("xenorite_smelter", XenoriteModBlocks.XENORITE_SMELTER,
 			XenoriteSmelterBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SOUL_TABLE = register("soul_table", XenoriteModBlocks.SOUL_TABLE,
+			SoulTableBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

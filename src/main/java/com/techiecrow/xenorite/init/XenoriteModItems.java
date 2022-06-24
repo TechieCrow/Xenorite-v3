@@ -22,6 +22,7 @@ import com.techiecrow.xenorite.item.XenoriteHoeItem;
 import com.techiecrow.xenorite.item.XenoriteAxeItem;
 import com.techiecrow.xenorite.item.XenoriteArmorItem;
 import com.techiecrow.xenorite.item.XenBookVol1Item;
+import com.techiecrow.xenorite.item.UniverseSoulSplitItem;
 import com.techiecrow.xenorite.item.ShadowBoronSwordItem;
 import com.techiecrow.xenorite.item.ShadowBoronShovelItem;
 import com.techiecrow.xenorite.item.ShadowBoronPickaxeItem;
@@ -139,6 +140,8 @@ public class XenoriteModItems {
 			() -> new ForgeSpawnEggItem(XenoriteModEntities.XEN_BEAST, -1, -1, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB)));
 	public static final RegistryObject<Item> XEN_PIG = REGISTRY.register("xen_pig_spawn_egg",
 			() -> new ForgeSpawnEggItem(XenoriteModEntities.XEN_PIG, -1, -1, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB)));
+	public static final RegistryObject<Item> UNIVERSE_SOUL_SPLIT = REGISTRY.register("universe_soul_split", () -> new UniverseSoulSplitItem());
+	public static final RegistryObject<Item> SOUL_TABLE = block(XenoriteModBlocks.SOUL_TABLE, XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

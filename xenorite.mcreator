@@ -1172,6 +1172,144 @@
         ]
       },
       "path": "~/Procedures/Ores"
+    },
+    {
+      "name": "UniverseSoulSplit",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universe_soul_split",
+      "path": "~/Items"
+    },
+    {
+      "name": "SoulTableGUI",
+      "type": "gui",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_table_gui",
+      "path": "~/GUIs"
+    },
+    {
+      "name": "SoulTable",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_table",
+      "path": "~/Smelters"
+    },
+    {
+      "name": "SoulTableInventoryWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_table_inventory_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/GUI Procedures"
+    },
+    {
+      "name": "SoulTableInventoryWhileThisGUIIsClosed",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_table_inventory_while_this_gui_is_closed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/GUI Procedures"
+    },
+    {
+      "name": "WhenItemTakenFromTheSlot",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_item_taken_from_the_slot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/GUI Procedures"
+    },
+    {
+      "name": "XenoritePickaxeTag",
+      "type": "tag",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenorite_pickaxe_tag",
+      "path": "~/Procedures/Soul Table/Recipe Tags"
+    },
+    {
+      "name": "CoreoritePickaxeTag",
+      "type": "tag",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coreorite_pickaxe_tag",
+      "path": "~/Procedures/Soul Table/Recipe Tags"
+    },
+    {
+      "name": "FinoritePickaxeTag",
+      "type": "tag",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finorite_pickaxe_tag",
+      "path": "~/Procedures/Soul Table/Recipe Tags"
+    },
+    {
+      "name": "XCFMasterPickaxeRecipe",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xcf_master_pickaxe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes"
     }
   ],
   "variable_elements": [],
@@ -1217,6 +1355,7 @@
       "entity.xenorite.xen_pig": "Xen Pig",
       "item.xenorite.coreorite_armor_leggings": "Coreorite Leggings",
       "item.xenorite.coreorite_armorhelmet": "Coreorite Helmet",
+      "block.xenorite.soul_table": "Soul Table",
       "item.xenorite.coreorite_armorlegs": "Coreorite Leggings",
       "block.xenorite.finorite_block": "Finorite Block",
       "item.xenorite.finorite_armorhelmet": "Finorite Helmet",
@@ -1236,6 +1375,7 @@
       "entity.xenorite.xen_beast": "Xen Beast",
       "subtitles.xen_beast_death": "Xen Beast Dying",
       "item.xenorite.finorite_armor_helmet": "Finorite Helmet",
+      "item.xenorite.universe_soul_split": "Universe Soul Split",
       "block.xenorite.shadow_boron_ore": "Shadow Boron Ore",
       "item.xenorite.xen_beast_spawn_egg": "Xen Beast Spawn Egg",
       "item.xenorite.shadow_boron_armor_chestplate": "Heavenly Glint Body",
@@ -1303,6 +1443,23 @@
           {
             "name": "Ores",
             "children": []
+          },
+          {
+            "name": "Soul Table",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              },
+              {
+                "name": "GUI Procedures",
+                "children": []
+              },
+              {
+                "name": "Recipe Tags",
+                "children": []
+              }
+            ]
           }
         ]
       },
