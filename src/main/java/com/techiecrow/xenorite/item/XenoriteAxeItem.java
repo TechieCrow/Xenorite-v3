@@ -14,23 +14,23 @@ public class XenoriteAxeItem extends AxeItem {
 	public XenoriteAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 500;
+				return 780;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 8f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 7f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {

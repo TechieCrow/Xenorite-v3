@@ -21,7 +21,7 @@ public abstract class FinoriteArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 33;
 			}
 
 			@Override
@@ -31,7 +31,7 @@ public abstract class FinoriteArmorItem extends ArmorItem {
 
 			@Override
 			public int getEnchantmentValue() {
-				return 25;
+				return 10;
 			}
 
 			@Override
@@ -51,7 +51,7 @@ public abstract class FinoriteArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 1f;
+				return 2f;
 			}
 
 			@Override

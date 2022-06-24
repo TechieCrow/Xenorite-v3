@@ -14,28 +14,28 @@ public class HeavenlyGlintSwordItem extends SwordItem {
 	public HeavenlyGlintSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 500;
+				return 780;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 8f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 5f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(XenoriteModItems.HEAVENLY_GLINT_INGOT.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
+		}, 3, -2.4f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
 	}
 }

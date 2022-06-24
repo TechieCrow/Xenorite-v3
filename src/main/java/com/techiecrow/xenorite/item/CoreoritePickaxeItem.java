@@ -14,28 +14,28 @@ public class CoreoritePickaxeItem extends PickaxeItem {
 	public CoreoritePickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 500;
+				return 780;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 8f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 3f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(XenoriteModItems.COREORITE_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
+		}, 1, -2.8f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
 	}
 }

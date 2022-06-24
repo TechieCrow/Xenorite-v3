@@ -22,6 +22,12 @@ import com.techiecrow.xenorite.item.XenoriteHoeItem;
 import com.techiecrow.xenorite.item.XenoriteAxeItem;
 import com.techiecrow.xenorite.item.XenoriteArmorItem;
 import com.techiecrow.xenorite.item.XenBookVol1Item;
+import com.techiecrow.xenorite.item.XCFMasterSwordItem;
+import com.techiecrow.xenorite.item.XCFMasterShovelItem;
+import com.techiecrow.xenorite.item.XCFMasterPickaxeItem;
+import com.techiecrow.xenorite.item.XCFMasterHoeItem;
+import com.techiecrow.xenorite.item.XCFMasterAxeItem;
+import com.techiecrow.xenorite.item.XCFMasterArmorItem;
 import com.techiecrow.xenorite.item.UniverseSoulSplitItem;
 import com.techiecrow.xenorite.item.ShadowBoronSwordItem;
 import com.techiecrow.xenorite.item.ShadowBoronShovelItem;
@@ -142,6 +148,19 @@ public class XenoriteModItems {
 			() -> new ForgeSpawnEggItem(XenoriteModEntities.XEN_PIG, -1, -1, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB)));
 	public static final RegistryObject<Item> UNIVERSE_SOUL_SPLIT = REGISTRY.register("universe_soul_split", () -> new UniverseSoulSplitItem());
 	public static final RegistryObject<Item> SOUL_TABLE = block(XenoriteModBlocks.SOUL_TABLE, XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB);
+	public static final RegistryObject<Item> XCF_MASTER_PICKAXE = REGISTRY.register("xcf_master_pickaxe", () -> new XCFMasterPickaxeItem());
+	public static final RegistryObject<Item> XCF_MASTER_SHOVEL = REGISTRY.register("xcf_master_shovel", () -> new XCFMasterShovelItem());
+	public static final RegistryObject<Item> XCF_MASTER_AXE = REGISTRY.register("xcf_master_axe", () -> new XCFMasterAxeItem());
+	public static final RegistryObject<Item> XCF_MASTER_HOE = REGISTRY.register("xcf_master_hoe", () -> new XCFMasterHoeItem());
+	public static final RegistryObject<Item> XCF_MASTER_ARMOR_HELMET = REGISTRY.register("xcf_master_armor_helmet",
+			() -> new XCFMasterArmorItem.Helmet());
+	public static final RegistryObject<Item> XCF_MASTER_ARMOR_CHESTPLATE = REGISTRY.register("xcf_master_armor_chestplate",
+			() -> new XCFMasterArmorItem.Chestplate());
+	public static final RegistryObject<Item> XCF_MASTER_ARMOR_LEGGINGS = REGISTRY.register("xcf_master_armor_leggings",
+			() -> new XCFMasterArmorItem.Leggings());
+	public static final RegistryObject<Item> XCF_MASTER_ARMOR_BOOTS = REGISTRY.register("xcf_master_armor_boots",
+			() -> new XCFMasterArmorItem.Boots());
+	public static final RegistryObject<Item> XCF_MASTER_SWORD = REGISTRY.register("xcf_master_sword", () -> new XCFMasterSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

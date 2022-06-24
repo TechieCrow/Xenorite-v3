@@ -1,6 +1,5 @@
 package com.techiecrow.xenorite.procedures;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.Slot;
@@ -138,7 +137,7 @@ public class XCFMasterPickaxeRecipeProcedure {
 						.getItem() == XenoriteModItems.UNIVERSE_SOUL_SPLIT.get()) {
 			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 					&& _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(Blocks.DIAMOND_BLOCK);
+				ItemStack _setstack = new ItemStack(XenoriteModItems.XCF_MASTER_PICKAXE.get());
 				_setstack.setCount(1);
 				((Slot) _slots.get(10)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
