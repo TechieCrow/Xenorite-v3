@@ -1309,7 +1309,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Soul Table/Recipes"
+      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
     },
     {
       "name": "XCFMasterPickaxe",
@@ -1370,6 +1370,142 @@
       "locked_code": false,
       "registry_name": "xcf_master_sword",
       "path": "~/Weapons"
+    },
+    {
+      "name": "XCFMasterShovelRecipe",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xcf_master_shovel_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
+    },
+    {
+      "name": "XCFMasterAxeRecipe",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xcf_master_axe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
+    },
+    {
+      "name": "XCFMasterHoeRecipe",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xcf_master_hoe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
+    },
+    {
+      "name": "XCFMasterSwordRecipe",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xcf_master_sword_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
+    },
+    {
+      "name": "XCFMasterHelmetRecipe",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xcf_master_helmet_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
+    },
+    {
+      "name": "XCFMasterChestplateRecipe",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xcf_master_chestplate_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
+    },
+    {
+      "name": "XCFMasterLeggingsRecipe",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xcf_master_leggings_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
+    },
+    {
+      "name": "XCFMasterBootsRecipe",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xcf_master_boots_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
     }
   ],
   "variable_elements": [],
@@ -1518,7 +1654,32 @@
             "children": [
               {
                 "name": "Recipes",
-                "children": []
+                "children": [
+                  {
+                    "name": "Pickaxes",
+                    "children": []
+                  },
+                  {
+                    "name": "Shovels",
+                    "children": []
+                  },
+                  {
+                    "name": "Axes",
+                    "children": []
+                  },
+                  {
+                    "name": "Hoes",
+                    "children": []
+                  },
+                  {
+                    "name": "Swords",
+                    "children": []
+                  },
+                  {
+                    "name": "Armor",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "GUI Procedures",
