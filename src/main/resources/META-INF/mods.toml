@@ -22,4 +22,16 @@ Xenorite is a mod for Minecraft that adds more ores to the game, these ores are 
 
 
 
+[[dependencies.xenorite]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.xenorite]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

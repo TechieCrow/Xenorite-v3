@@ -7,6 +7,10 @@ package com.techiecrow.xenorite.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
@@ -38,4 +42,12 @@ public class XenoriteModBlocks {
 	public static final RegistryObject<Block> SHADOW_BORON_BLOCK = REGISTRY.register("shadow_boron_block", () -> new ShadowBoronBlockBlock());
 	public static final RegistryObject<Block> XENORITE_SMELTER = REGISTRY.register("xenorite_smelter", () -> new XenoriteSmelterBlock());
 	public static final RegistryObject<Block> SOUL_TABLE = REGISTRY.register("soul_table", () -> new SoulTableBlock());
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void clientSetup(FMLClientSetupEvent event) {
+			SoulTableBlock.registerRenderLayer();
+		}
+	}
 }

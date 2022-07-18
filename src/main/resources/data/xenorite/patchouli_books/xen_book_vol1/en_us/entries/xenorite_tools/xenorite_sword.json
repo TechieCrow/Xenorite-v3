@@ -1,0 +1,17 @@
+{
+    "name": "Xenorite Sword",
+    "icon": "xenorite:xenorite_sword",
+    "category": "xenorite:xenorite_tools",
+    "pages": [
+        {
+			"type": "patchouli:text",
+			"text": "$(k)No one knows who $()the fi$(k)rst person to make a Xenorite sword was but we $()know the$(k)y were scared enough to do so."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "xenorite:xenorite_sword",
+			"title": "Xenorite Sword",
+			"text": "This sword is made with 3 Xenorite ingots and 2 sticks"
+		}
+    ]
+}

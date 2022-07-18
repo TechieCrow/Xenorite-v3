@@ -2,6 +2,8 @@
 package com.techiecrow.xenorite.block;
 
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -28,6 +30,8 @@ import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import java.util.List;
 import java.util.Collections;
@@ -35,6 +39,7 @@ import java.util.Collections;
 import io.netty.buffer.Unpooled;
 
 import com.techiecrow.xenorite.world.inventory.SoulTableGUIMenu;
+import com.techiecrow.xenorite.init.XenoriteModBlocks;
 import com.techiecrow.xenorite.block.entity.SoulTableBlockEntity;
 
 public class SoulTableBlock extends Block
@@ -42,12 +47,18 @@ public class SoulTableBlock extends Block
 
 			EntityBlock {
 	public SoulTableBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.STONE).sound(SoundType.WOOD).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.STONE).sound(SoundType.WOOD).strength(1f, 10f).noOcclusion()
+				.isRedstoneConductor((bs, br, bp) -> false));
+	}
+
+	@Override
+	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+		return true;
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 15;
+		return 0;
 	}
 
 	@Override
@@ -105,5 +116,10 @@ public class SoulTableBlock extends Block
 			}
 			super.onRemove(state, world, pos, newState, isMoving);
 		}
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static void registerRenderLayer() {
+		ItemBlockRenderTypes.setRenderLayer(XenoriteModBlocks.SOUL_TABLE.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "xenorite:blocks/xenoritesmeltersides",
-    "up": "xenorite:blocks/xenoritesmeltersides",
-    "north": "xenorite:blocks/xenoritesmelterfront",
-    "east": "xenorite:blocks/xenoritesmeltersides",
-    "south": "xenorite:blocks/xenoritesmeltersides",
-    "west": "xenorite:blocks/xenoritesmeltersides",
-    "particle": "xenorite:blocks/xenoritesmeltersides"
+    "all": "xenorite:blocks/placeholderblock",
+    "particle": "xenorite:blocks/placeholderblock"
   }
 }

@@ -69,9 +69,9 @@ public class XenoriteSmelterGUIScreen extends AbstractContainerScreen<XenoriteSm
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Xenorite Smelter", 6, 7, -16777216);
-		this.font.draw(poseStack, "Fuel", 6, 34, -16777216);
-		this.font.draw(poseStack, "Ingots", 58, 34, -16777216);
-		this.font.draw(poseStack, "Output", 123, 34, -16777216);
+		this.font.draw(poseStack, "Fuel", 4, 37, -16777216);
+		this.font.draw(poseStack, "Ingots", 62, 37, -16777216);
+		this.font.draw(poseStack, "Output", 125, 37, -16777216);
 	}
 
 	@Override

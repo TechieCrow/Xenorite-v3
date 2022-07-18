@@ -1,0 +1,7 @@
+{
+    "name": "Xen Book Vol 1",
+    "landing_text": "$(l)This book is a WIP, there will be a number of books explaining the reasn why the ores act the way they do and how Xen Beast came into being! $()$(o)- TechieCrow",
+	"show_progress": false,
+	"creative_tab": "tabxenorite_creative_tab",
+    "version": 1
+}

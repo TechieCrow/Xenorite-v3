@@ -32,7 +32,7 @@ import com.techiecrow.xenorite.world.inventory.XenoriteSmelterGUIMenu;
 import com.techiecrow.xenorite.init.XenoriteModBlockEntities;
 
 public class XenoriteSmelterBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(4, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(5, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public XenoriteSmelterBlockEntity(BlockPos position, BlockState state) {
@@ -110,7 +110,7 @@ public class XenoriteSmelterBlockEntity extends RandomizableContainerBlockEntity
 
 	@Override
 	public boolean canPlaceItem(int index, ItemStack stack) {
-		if (index == 3)
+		if (index == 4)
 			return false;
 		return true;
 	}
@@ -132,6 +132,8 @@ public class XenoriteSmelterBlockEntity extends RandomizableContainerBlockEntity
 		if (index == 1)
 			return false;
 		if (index == 2)
+			return false;
+		if (index == 3)
 			return false;
 		return true;
 	}

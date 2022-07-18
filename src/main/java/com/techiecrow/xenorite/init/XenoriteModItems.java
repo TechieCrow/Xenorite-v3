@@ -28,6 +28,8 @@ import com.techiecrow.xenorite.item.XCFMasterPickaxeItem;
 import com.techiecrow.xenorite.item.XCFMasterHoeItem;
 import com.techiecrow.xenorite.item.XCFMasterAxeItem;
 import com.techiecrow.xenorite.item.XCFMasterArmorItem;
+import com.techiecrow.xenorite.item.XCFIngotItem;
+import com.techiecrow.xenorite.item.WorldlyIngotItem;
 import com.techiecrow.xenorite.item.UniverseSoulSplitItem;
 import com.techiecrow.xenorite.item.ShadowBoronSwordItem;
 import com.techiecrow.xenorite.item.ShadowBoronShovelItem;
@@ -36,6 +38,8 @@ import com.techiecrow.xenorite.item.ShadowBoronIngotItem;
 import com.techiecrow.xenorite.item.ShadowBoronHoeItem;
 import com.techiecrow.xenorite.item.ShadowBoronAxeItem;
 import com.techiecrow.xenorite.item.ShadowBoronArmorItem;
+import com.techiecrow.xenorite.item.LootingBagItemItem;
+import com.techiecrow.xenorite.item.HeavenlyGlintingShadowIngotItem;
 import com.techiecrow.xenorite.item.HeavenlyGlintSwordItem;
 import com.techiecrow.xenorite.item.HeavenlyGlintShovelItem;
 import com.techiecrow.xenorite.item.HeavenlyGlintPickaxeItem;
@@ -161,6 +165,11 @@ public class XenoriteModItems {
 	public static final RegistryObject<Item> XCF_MASTER_ARMOR_BOOTS = REGISTRY.register("xcf_master_armor_boots",
 			() -> new XCFMasterArmorItem.Boots());
 	public static final RegistryObject<Item> XCF_MASTER_SWORD = REGISTRY.register("xcf_master_sword", () -> new XCFMasterSwordItem());
+	public static final RegistryObject<Item> XCF_INGOT = REGISTRY.register("xcf_ingot", () -> new XCFIngotItem());
+	public static final RegistryObject<Item> HEAVENLY_GLINTING_SHADOW_INGOT = REGISTRY.register("heavenly_glinting_shadow_ingot",
+			() -> new HeavenlyGlintingShadowIngotItem());
+	public static final RegistryObject<Item> WORLDLY_INGOT = REGISTRY.register("worldly_ingot", () -> new WorldlyIngotItem());
+	public static final RegistryObject<Item> LOOTING_BAG_ITEM = REGISTRY.register("looting_bag_item", () -> new LootingBagItemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

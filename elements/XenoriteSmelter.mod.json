@@ -2,14 +2,14 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "xenoritesmeltersides",
+    "texture": "placeholderblock",
     "textureTop": "xenoritesmeltersides",
     "textureLeft": "xenoritesmeltersides",
     "textureFront": "xenoritesmelterfront",
     "textureRight": "xenoritesmeltersides",
     "textureBack": "xenoritesmeltersides",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -107,17 +107,18 @@
     "hasInventory": true,
     "guiBoundTo": "XenoriteSmelterGUI",
     "openGUIOnRightClick": true,
-    "inventorySize": 4,
+    "inventorySize": 5,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [
-      3
+      4
     ],
     "inventoryInSlotIDs": [
       0,
       1,
-      2
+      2,
+      3
     ],
     "hasEnergyStorage": false,
     "energyInitial": 0,

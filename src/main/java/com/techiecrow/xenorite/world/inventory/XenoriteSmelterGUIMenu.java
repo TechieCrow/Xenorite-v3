@@ -37,7 +37,7 @@ public class XenoriteSmelterGUIMenu extends AbstractContainerMenu implements Sup
 		super(XenoriteModMenus.XENORITE_SMELTER_GUI, id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
-		this.internal = new ItemStackHandler(4);
+		this.internal = new ItemStackHandler(5);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -79,13 +79,15 @@ public class XenoriteSmelterGUIMenu extends AbstractContainerMenu implements Sup
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 52, 53) {
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 133, 53) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 133, 53) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 53) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 70, 53) {
+		}));
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 88, 53) {
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -106,18 +108,18 @@ public class XenoriteSmelterGUIMenu extends AbstractContainerMenu implements Sup
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 4) {
-				if (!this.moveItemStackTo(itemstack1, 4, this.slots.size(), true)) {
+			if (index < 5) {
+				if (!this.moveItemStackTo(itemstack1, 5, this.slots.size(), true)) {
 					return ItemStack.EMPTY;
 				}
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 4, false)) {
-				if (index < 4 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 4 + 27, this.slots.size(), true)) {
+			} else if (!this.moveItemStackTo(itemstack1, 0, 5, false)) {
+				if (index < 5 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 5 + 27, this.slots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 4, 4 + 27, false)) {
+					if (!this.moveItemStackTo(itemstack1, 5, 5 + 27, false)) {
 						return ItemStack.EMPTY;
 					}
 				}

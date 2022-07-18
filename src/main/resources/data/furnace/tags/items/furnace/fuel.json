@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:charcoal",
+    "minecraft:oak_log",
+    "minecraft:jungle_log",
+    "minecraft:dried_kelp_block",
+    "minecraft:coal",
+    "minecraft:coal_block",
+    "minecraft:blaze_rod",
+    "minecraft:spruce_log",
+    "minecraft:lava_bucket",
+    "minecraft:birch_log",
+    "minecraft:acacia_log",
+    "minecraft:dark_oak_log"
+  ]
+}
