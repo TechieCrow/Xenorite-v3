@@ -15,6 +15,6 @@ public class SoulTableInventoryWhileThisGUIIsOpenTickProcedure {
 			((Slot) _slots.get(10)).remove(1);
 			_player.containerMenu.broadcastChanges();
 		}
-		XCFMasterPickaxeRecipeProcedure.execute(entity);
+		AlloritePickaxeRecipeProcedure.execute(entity);
 	}
 }

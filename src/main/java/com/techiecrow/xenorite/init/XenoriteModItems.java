@@ -22,14 +22,6 @@ import com.techiecrow.xenorite.item.XenoriteHoeItem;
 import com.techiecrow.xenorite.item.XenoriteAxeItem;
 import com.techiecrow.xenorite.item.XenoriteArmorItem;
 import com.techiecrow.xenorite.item.XenBookVol1Item;
-import com.techiecrow.xenorite.item.XCFMasterSwordItem;
-import com.techiecrow.xenorite.item.XCFMasterShovelItem;
-import com.techiecrow.xenorite.item.XCFMasterPickaxeItem;
-import com.techiecrow.xenorite.item.XCFMasterHoeItem;
-import com.techiecrow.xenorite.item.XCFMasterAxeItem;
-import com.techiecrow.xenorite.item.XCFMasterArmorItem;
-import com.techiecrow.xenorite.item.XCFIngotItem;
-import com.techiecrow.xenorite.item.WorldlyIngotItem;
 import com.techiecrow.xenorite.item.UniverseSoulSplitItem;
 import com.techiecrow.xenorite.item.ShadowBoronSwordItem;
 import com.techiecrow.xenorite.item.ShadowBoronShovelItem;
@@ -39,7 +31,6 @@ import com.techiecrow.xenorite.item.ShadowBoronHoeItem;
 import com.techiecrow.xenorite.item.ShadowBoronAxeItem;
 import com.techiecrow.xenorite.item.ShadowBoronArmorItem;
 import com.techiecrow.xenorite.item.LootingBagItemItem;
-import com.techiecrow.xenorite.item.HeavenlyGlintingShadowIngotItem;
 import com.techiecrow.xenorite.item.HeavenlyGlintSwordItem;
 import com.techiecrow.xenorite.item.HeavenlyGlintShovelItem;
 import com.techiecrow.xenorite.item.HeavenlyGlintPickaxeItem;
@@ -54,6 +45,7 @@ import com.techiecrow.xenorite.item.FinoriteIngotItem;
 import com.techiecrow.xenorite.item.FinoriteHoeItem;
 import com.techiecrow.xenorite.item.FinoriteAxeItem;
 import com.techiecrow.xenorite.item.FinoriteArmorItem;
+import com.techiecrow.xenorite.item.DespicableIngotItem;
 import com.techiecrow.xenorite.item.CoreoriteSwordItem;
 import com.techiecrow.xenorite.item.CoreoriteShovelItem;
 import com.techiecrow.xenorite.item.CoreoritePickaxeItem;
@@ -61,6 +53,14 @@ import com.techiecrow.xenorite.item.CoreoriteIngotItem;
 import com.techiecrow.xenorite.item.CoreoriteHoeItem;
 import com.techiecrow.xenorite.item.CoreoriteAxeItem;
 import com.techiecrow.xenorite.item.CoreoriteArmorItem;
+import com.techiecrow.xenorite.item.CelestialIngotItem;
+import com.techiecrow.xenorite.item.AlloriteSwordItem;
+import com.techiecrow.xenorite.item.AlloriteShovelItem;
+import com.techiecrow.xenorite.item.AlloritePickaxeItem;
+import com.techiecrow.xenorite.item.AlloriteIngotItem;
+import com.techiecrow.xenorite.item.AlloriteHoeItem;
+import com.techiecrow.xenorite.item.AlloriteAxeItem;
+import com.techiecrow.xenorite.item.AlloriteArmorItem;
 import com.techiecrow.xenorite.XenoriteMod;
 
 public class XenoriteModItems {
@@ -152,24 +152,21 @@ public class XenoriteModItems {
 			() -> new ForgeSpawnEggItem(XenoriteModEntities.XEN_PIG, -1, -1, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB)));
 	public static final RegistryObject<Item> UNIVERSE_SOUL_SPLIT = REGISTRY.register("universe_soul_split", () -> new UniverseSoulSplitItem());
 	public static final RegistryObject<Item> SOUL_TABLE = block(XenoriteModBlocks.SOUL_TABLE, XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB);
-	public static final RegistryObject<Item> XCF_MASTER_PICKAXE = REGISTRY.register("xcf_master_pickaxe", () -> new XCFMasterPickaxeItem());
-	public static final RegistryObject<Item> XCF_MASTER_SHOVEL = REGISTRY.register("xcf_master_shovel", () -> new XCFMasterShovelItem());
-	public static final RegistryObject<Item> XCF_MASTER_AXE = REGISTRY.register("xcf_master_axe", () -> new XCFMasterAxeItem());
-	public static final RegistryObject<Item> XCF_MASTER_HOE = REGISTRY.register("xcf_master_hoe", () -> new XCFMasterHoeItem());
-	public static final RegistryObject<Item> XCF_MASTER_ARMOR_HELMET = REGISTRY.register("xcf_master_armor_helmet",
-			() -> new XCFMasterArmorItem.Helmet());
-	public static final RegistryObject<Item> XCF_MASTER_ARMOR_CHESTPLATE = REGISTRY.register("xcf_master_armor_chestplate",
-			() -> new XCFMasterArmorItem.Chestplate());
-	public static final RegistryObject<Item> XCF_MASTER_ARMOR_LEGGINGS = REGISTRY.register("xcf_master_armor_leggings",
-			() -> new XCFMasterArmorItem.Leggings());
-	public static final RegistryObject<Item> XCF_MASTER_ARMOR_BOOTS = REGISTRY.register("xcf_master_armor_boots",
-			() -> new XCFMasterArmorItem.Boots());
-	public static final RegistryObject<Item> XCF_MASTER_SWORD = REGISTRY.register("xcf_master_sword", () -> new XCFMasterSwordItem());
-	public static final RegistryObject<Item> XCF_INGOT = REGISTRY.register("xcf_ingot", () -> new XCFIngotItem());
-	public static final RegistryObject<Item> HEAVENLY_GLINTING_SHADOW_INGOT = REGISTRY.register("heavenly_glinting_shadow_ingot",
-			() -> new HeavenlyGlintingShadowIngotItem());
-	public static final RegistryObject<Item> WORLDLY_INGOT = REGISTRY.register("worldly_ingot", () -> new WorldlyIngotItem());
 	public static final RegistryObject<Item> LOOTING_BAG_ITEM = REGISTRY.register("looting_bag_item", () -> new LootingBagItemItem());
+	public static final RegistryObject<Item> ALLORITE_INGOT = REGISTRY.register("allorite_ingot", () -> new AlloriteIngotItem());
+	public static final RegistryObject<Item> CELESTIAL_INGOT = REGISTRY.register("celestial_ingot", () -> new CelestialIngotItem());
+	public static final RegistryObject<Item> DESPICABLE_INGOT = REGISTRY.register("despicable_ingot", () -> new DespicableIngotItem());
+	public static final RegistryObject<Item> ALLORITE_PICKAXE = REGISTRY.register("allorite_pickaxe", () -> new AlloritePickaxeItem());
+	public static final RegistryObject<Item> ALLORITE_SHOVEL = REGISTRY.register("allorite_shovel", () -> new AlloriteShovelItem());
+	public static final RegistryObject<Item> ALLORITE_AXE = REGISTRY.register("allorite_axe", () -> new AlloriteAxeItem());
+	public static final RegistryObject<Item> ALLORITE_HOE = REGISTRY.register("allorite_hoe", () -> new AlloriteHoeItem());
+	public static final RegistryObject<Item> ALLORITE_SWORD = REGISTRY.register("allorite_sword", () -> new AlloriteSwordItem());
+	public static final RegistryObject<Item> ALLORITE_ARMOR_HELMET = REGISTRY.register("allorite_armor_helmet", () -> new AlloriteArmorItem.Helmet());
+	public static final RegistryObject<Item> ALLORITE_ARMOR_CHESTPLATE = REGISTRY.register("allorite_armor_chestplate",
+			() -> new AlloriteArmorItem.Chestplate());
+	public static final RegistryObject<Item> ALLORITE_ARMOR_LEGGINGS = REGISTRY.register("allorite_armor_leggings",
+			() -> new AlloriteArmorItem.Leggings());
+	public static final RegistryObject<Item> ALLORITE_ARMOR_BOOTS = REGISTRY.register("allorite_armor_boots", () -> new AlloriteArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

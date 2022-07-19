@@ -1295,248 +1295,6 @@
       "path": "~/Procedures/Soul Table/Recipe Tags"
     },
     {
-      "name": "XCFMasterPickaxeRecipe",
-      "type": "procedure",
-      "sortid": 122,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_pickaxe_recipe",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
-    },
-    {
-      "name": "XCFMasterPickaxe",
-      "type": "tool",
-      "sortid": 125,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_pickaxe",
-      "path": "~/Tools/Pickaxes"
-    },
-    {
-      "name": "XCFMasterShovel",
-      "type": "tool",
-      "sortid": 126,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_shovel",
-      "path": "~/Tools/Shovels"
-    },
-    {
-      "name": "XCFMasterAxe",
-      "type": "tool",
-      "sortid": 127,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_axe",
-      "path": "~/Tools/Axes"
-    },
-    {
-      "name": "XCFMasterHoe",
-      "type": "tool",
-      "sortid": 128,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_hoe",
-      "path": "~/Tools/Hoes"
-    },
-    {
-      "name": "XCFMasterArmor",
-      "type": "armor",
-      "sortid": 129,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/Armor"
-    },
-    {
-      "name": "XCFMasterSword",
-      "type": "tool",
-      "sortid": 130,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_sword",
-      "path": "~/Weapons"
-    },
-    {
-      "name": "XCFMasterShovelRecipe",
-      "type": "procedure",
-      "sortid": 131,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_shovel_recipe",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
-    },
-    {
-      "name": "XCFMasterAxeRecipe",
-      "type": "procedure",
-      "sortid": 132,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_axe_recipe",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
-    },
-    {
-      "name": "XCFMasterHoeRecipe",
-      "type": "procedure",
-      "sortid": 133,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_hoe_recipe",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
-    },
-    {
-      "name": "XCFMasterSwordRecipe",
-      "type": "procedure",
-      "sortid": 134,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_sword_recipe",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
-    },
-    {
-      "name": "XCFMasterHelmetRecipe",
-      "type": "procedure",
-      "sortid": 135,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_helmet_recipe",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
-    },
-    {
-      "name": "XCFMasterChestplateRecipe",
-      "type": "procedure",
-      "sortid": 136,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_chestplate_recipe",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
-    },
-    {
-      "name": "XCFMasterLeggingsRecipe",
-      "type": "procedure",
-      "sortid": 137,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_leggings_recipe",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
-    },
-    {
-      "name": "XCFMasterBootsRecipe",
-      "type": "procedure",
-      "sortid": 138,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_master_boots_recipe",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
-    },
-    {
-      "name": "XenoriteSmelterXCFIngotRecipe",
-      "type": "procedure",
-      "sortid": 139,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xenorite_smelter_xcf_ingot_recipe",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures/Smelters/Recipes"
-    },
-    {
       "name": "FurnaceFuel",
       "type": "tag",
       "sortid": 140,
@@ -1544,91 +1302,6 @@
       "locked_code": false,
       "registry_name": "furnace_fuel",
       "path": "~/Tags"
-    },
-    {
-      "name": "XenoriteSmelterPeacefulGlintingIngotRecipe",
-      "type": "procedure",
-      "sortid": 141,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xenorite_smelter_peaceful_glinting_ingot_recipe",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures/Smelters/Recipes"
-    },
-    {
-      "name": "XenoriteSmelterWorldlyIngotRecipe",
-      "type": "procedure",
-      "sortid": 142,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xenorite_smelter_worldly_ingot_recipe",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures/Smelters/Recipes"
-    },
-    {
-      "name": "XCFIngot",
-      "type": "item",
-      "sortid": 143,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "xcf_ingot",
-      "path": "~/Items/Ingots"
-    },
-    {
-      "name": "HeavenlyGlintingShadowIngot",
-      "type": "item",
-      "sortid": 144,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "heavenly_glinting_shadow_ingot",
-      "path": "~/Items/Ingots"
-    },
-    {
-      "name": "WorldlyIngot",
-      "type": "item",
-      "sortid": 145,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "worldly_ingot",
-      "path": "~/Items/Ingots"
     },
     {
       "name": "LootingBagItem",
@@ -1655,6 +1328,197 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "XenoriteSmelterAlloriteRecipe",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenorite_smelter_allorite_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Smelters/Recipes"
+    },
+    {
+      "name": "AlloriteIngot",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_ingot",
+      "path": "~/Items/Ingots"
+    },
+    {
+      "name": "XenoriteSmelterCelestialIngotRecipe",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenorite_smelter_celestial_ingot_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Smelters/Recipes"
+    },
+    {
+      "name": "CelestialIngot",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_ingot",
+      "path": "~/Items/Ingots"
+    },
+    {
+      "name": "DespicableIngot",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despicable_ingot",
+      "path": "~/Items/Ingots"
+    },
+    {
+      "name": "XenoriteSmelterDespicableIngotRecipe",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenorite_smelter_despicable_ingot_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Smelters/Recipes"
+    },
+    {
+      "name": "AlloritePickaxeRecipe",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_pickaxe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
+    },
+    {
+      "name": "AlloritePickaxe",
+      "type": "tool",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_pickaxe",
+      "path": "~/Tools/Pickaxes"
+    },
+    {
+      "name": "AlloriteShovel",
+      "type": "tool",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_shovel",
+      "path": "~/Tools/Shovels"
+    },
+    {
+      "name": "AlloriteAxe",
+      "type": "tool",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_axe",
+      "path": "~/Tools/Axes"
+    },
+    {
+      "name": "AlloriteHoe",
+      "type": "tool",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_hoe",
+      "path": "~/Tools/Hoes"
+    },
+    {
+      "name": "AlloriteSword",
+      "type": "tool",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_sword",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "AlloriteArmor",
+      "type": "armor",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
     }
   ],
   "variable_elements": [],
@@ -1690,11 +1554,8 @@
       "item.xenorite.xenorite_hoe": "Xenorite Hoe",
       "item.xenorite.shadow_boron_axe": "Shadow Boron Axe",
       "item.xenorite.coreorite_axe": "Coreorite Axe",
-      "item.xenorite.xcf_master_axe": "XCF Master Axe",
       "item.xenorite.heavenly_glint_ingot": "Heavenly Glint Ingot",
-      "item.xenorite.worldly_ingot": "Worldly Ingot",
       "item.xenorite.finorite_axe": "Finorite Axe",
-      "item.xenorite.xcf_master_pickaxe": "XCF Master Pickaxe",
       "entity.xenorite.xen_pig": "Xen Pig",
       "item.xenorite.coreorite_armorlegs": "Coreorite Leggings",
       "item.xenorite.finorite_armorhelmet": "Finorite Helmet",
@@ -1702,7 +1563,6 @@
       "item.xenorite.shadow_boron_armor_leggings": "Heavenly Glint Leggings",
       "block.xenorite.shadow_boron_block": "Shadow Boron Block",
       "item.xenorite.xenorite_armorhelmet": "Xenorite Helmet",
-      "item.xenorite.xcf_master_armor_boots": "XCF Master Boots",
       "item.xenorite.finorite_armor_helmet": "Finorite Helmet",
       "item.xenorite.universe_soul_split": "Universe Soul Split",
       "item.xenorite.xen_beast_spawn_egg": "Xen Beast Spawn Egg",
@@ -1712,10 +1572,11 @@
       "item.xenorite.heavenly_glint_armor_boots": "Heavenly Glint Boots",
       "item.xenorite.coreorite_hoe": "Coreorite Hoe",
       "death.attack.finorite.ore": "%1$s was killed Finorite ore... What a shame.",
+      "item.xenorite.allorite_armor_chestplate": "Allorite Body",
       "item.xenorite.finorite_ingot": "Finorite Ingot",
+      "item.xenorite.allorite_sword": "Allorite Sword",
       "item.xenorite.coreorite_armorboots": "Coreorite Boots",
       "item.xenorite.heavenly_glint_pickaxe": "Heavenly Glint Pickaxe",
-      "item.xenorite.xcf_master_armor_helmet": "XCF Master Helmet",
       "block.xenorite.coreorite_block": "Coreorite Block",
       "item.xenorite.xenorite_armor_leggings": "Xenorite Leggings",
       "block.xenorite.heavenly_glint_ore": "Heavenly Glint Ore",
@@ -1724,33 +1585,34 @@
       "item.xenorite.finorite_shovel": "Finorite Shovel",
       "item.xenorite.xenorite_pickaxe": "Xenorite Pickaxe",
       "item.xenorite.finorite_armor_boots": "Finorite Boots",
+      "item.xenorite.allorite_armor_helmet": "Allorite Helmet",
       "item.xenorite.finorite_armorlegs": "Finorite Leggings",
       "item.xenorite.heavenly_glint_armor_chestplate": "Heavenly Glint Body",
+      "item.xenorite.celestial_ingot": "Celestial Ingot",
       "item.xenorite.shadow_boron_armor_boots": "Heavenly Glint Boots",
       "item.xenorite.xen_book_vol_1": "Xen Book Vol 1",
       "item.xenorite.finorite_armor_chestplate": "Finorite Body",
       "block.xenorite.xenorite_ore": "Xenorite Ore",
-      "item.xenorite.xcf_master_shovel": "XCF Master Shovel",
-      "item.xenorite.xcf_ingot": "XCF Ingot",
       "item.xenorite.xenorite_armor_chestplate": "Xenorite Body",
       "item.xenorite.coreorite_shovel": "Coreorite Shovel",
       "item.xenorite.xenorite_armor_helmet": "Xenorite Helmet",
       "item.xenorite.shadow_boron_sword": "Shadow Boron Sword",
+      "item.xenorite.allorite_armor_boots": "Allorite Boots",
+      "item.xenorite.allorite_shovel": "XCF Master Shovel",
       "block.xenorite.coreorite_ore": "Coreorite Ore",
       "item.xenorite.xenorite_axe": "Xenorite Axe",
       "block.xenorite.heavenly_glint_block": "Heavenly Glint Block",
-      "item.xenorite.xcf_master_armor_leggings": "XCF Master Leggings",
       "item.xenorite.xenorite_sword": "Xenorite Sword",
+      "item.xenorite.allorite_pickaxe": "Allorite Pickaxe",
       "item.xenorite.looting_bag_item": "Looting Bag",
       "subtitles.xen_beast_idle": "Xen Beast Idle Noises",
       "item.xenorite.heavenly_glint_shovel": "Heavenly Glint Shovel",
       "item.xenorite.heavenly_glint_armor_helmet": "Heavenly Glint Helmet",
-      "item.xenorite.xcf_master_armor_chestplate": "XCF Master Body",
       "item.xenorite.coreorite_sword": "Coreorite Sword",
+      "item.xenorite.allorite_ingot": "Allorite Ingot",
       "item.xenorite.coreorite_armor_leggings": "Coreorite Leggings",
       "item.xenorite.coreorite_armorhelmet": "Coreorite Helmet",
       "block.xenorite.soul_table": "Soul Table",
-      "item.xenorite.heavenly_glinting_shadow_ingot": "Heavenly Glinting Shadow Ingot",
       "block.xenorite.finorite_block": "Finorite Block",
       "item.xenorite.coreorite_ingot": "Coreorite Ingot",
       "item.xenorite.coreorite_armor_chestplate": "Coreorite Body",
@@ -1760,29 +1622,31 @@
       "item.xenorite.shadow_boron_armor_helmet": "Heavenly Glint Helmet",
       "death.attack.xenorite.ore": "%1$s was killed Xenorite ore... What a shame.",
       "item.xenorite.shadow_boron_ingot": "Shadow Boron Ingot",
-      "item.xenorite.xcf_master_sword": "XCF Master Sword",
       "item.xenorite.xenorite_shovel": "Xenorite Shovel",
+      "item.xenorite.allorite_axe": "Allorite Axe",
       "entity.xenorite.xen_beast": "Xen Beast",
       "subtitles.xen_beast_death": "Xen Beast Dying",
       "block.xenorite.shadow_boron_ore": "Shadow Boron Ore",
+      "item.xenorite.allorite_hoe": "Allorite Hoe",
       "item.xenorite.coreorite_armor_helmet": "Coreorite Helmet",
       "item.xenorite.finorite_hoe": "Finorite Hoe",
       "item.xenorite.finorite_armorbody": "Finorite Body",
       "itemGroup.tabxenorite_creative_tab": "Xenorite",
       "subtitles.xen_beast_hurt": "Xen Beast Hurting",
       "item.xenorite.finorite_pickaxe": "Finorite Pickaxe",
+      "item.xenorite.allorite_armor_leggings": "Allorite Leggings",
       "item.xenorite.coreorite_armor_boots": "Coreorite Boots",
       "item.xenorite.heavenly_glint_hoe": "Heavenly Glint Hoe",
       "item.xenorite.xenorite_armorlegs": "Xenorite Leggings",
       "item.xenorite.shadow_boron_pickaxe": "Shadow Boron Pickaxe",
       "item.xenorite.shadow_boron_hoe": "Shadow Boron Hoe",
-      "item.xenorite.xcf_master_hoe": "XCF Master Hoe",
       "item.xenorite.finorite_armor_leggings": "Finorite Leggings",
       "block.xenorite.xenorite_block": "Xenorite Block",
       "item.xenorite.finorite_sword": "Finorite Sword",
       "death.attack.coreorite.ore": "%1$s was killed Coreorite ore... What a shame.",
       "item.xenorite.heavenly_glint_sword": "Heavenly Glint Sword",
       "block.xenorite.finorite_ore": "Finorite Ore",
+      "item.xenorite.despicable_ingot": "Despicable Ingot",
       "item.xenorite.xenorite_armorboots": "Xenorite Boots",
       "item.xenorite.xenorite_armor_boots": "Xenorite Boots",
       "item.xenorite.coreorite_pickaxe": "Coreorite Pickaxe"

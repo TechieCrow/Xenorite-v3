@@ -31,7 +31,7 @@ public class LootBagRightClickProcedure {
 				}
 			} else if (randomNum > 0.5 && randomNum <= 0.75) {
 				if (entity instanceof Player _player) {
-					ItemStack _setstack = new ItemStack(XenoriteModItems.WORLDLY_INGOT.get());
+					ItemStack _setstack = new ItemStack(XenoriteModItems.DESPICABLE_INGOT.get());
 					_setstack.setCount(1);
 					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 				}
