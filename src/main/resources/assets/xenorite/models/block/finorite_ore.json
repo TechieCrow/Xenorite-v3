@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "xenorite:blocks/finoriteore",
-    "particle": "xenorite:blocks/finoriteore"
+    "all": "xenorite:blocks/finorite",
+    "particle": "xenorite:blocks/finorite"
   }
 }

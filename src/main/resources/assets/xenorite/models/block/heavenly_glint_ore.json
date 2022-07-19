@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "xenorite:blocks/heavenlyglintore",
-    "particle": "xenorite:blocks/heavenlyglintore"
+    "all": "xenorite:blocks/heavenlyglint",
+    "particle": "xenorite:blocks/heavenlyglint"
   }
 }

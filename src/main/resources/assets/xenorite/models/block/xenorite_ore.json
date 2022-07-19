@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "xenorite:blocks/xenoriteore",
-    "particle": "xenorite:blocks/xenoriteore"
+    "all": "xenorite:blocks/xenorite",
+    "particle": "xenorite:blocks/xenorite"
   }
 }

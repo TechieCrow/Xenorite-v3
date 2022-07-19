@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "heavenlyglintingot",
+    "texture": "heavenlyglint",
     "customModelName": "Normal",
     "name": "Heavenly Glint Ingot",
     "rarity": "COMMON",

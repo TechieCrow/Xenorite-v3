@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "coreoriteaxe",
+    "texture": "axe.coreorite",
     "customModelName": "Normal",
     "name": "Coreorite Axe",
     "specialInfo": [],

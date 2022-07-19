@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "placeholderingot",
+    "texture": "celestial",
     "customModelName": "Normal",
     "name": "Celestial Ingot",
     "rarity": "COMMON",
