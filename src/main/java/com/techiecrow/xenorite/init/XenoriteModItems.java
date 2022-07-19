@@ -45,13 +45,7 @@ import com.techiecrow.xenorite.item.FinoriteIngotItem;
 import com.techiecrow.xenorite.item.FinoriteHoeItem;
 import com.techiecrow.xenorite.item.FinoriteAxeItem;
 import com.techiecrow.xenorite.item.FinoriteArmorItem;
-import com.techiecrow.xenorite.item.DespicableSwordItem;
-import com.techiecrow.xenorite.item.DespicableShovelItem;
-import com.techiecrow.xenorite.item.DespicablePickaxeItem;
 import com.techiecrow.xenorite.item.DespicableIngotItem;
-import com.techiecrow.xenorite.item.DespicableHoeItem;
-import com.techiecrow.xenorite.item.DespicableAxeItem;
-import com.techiecrow.xenorite.item.DespicableArmorItem;
 import com.techiecrow.xenorite.item.CoreoriteSwordItem;
 import com.techiecrow.xenorite.item.CoreoriteShovelItem;
 import com.techiecrow.xenorite.item.CoreoritePickaxeItem;
@@ -59,13 +53,7 @@ import com.techiecrow.xenorite.item.CoreoriteIngotItem;
 import com.techiecrow.xenorite.item.CoreoriteHoeItem;
 import com.techiecrow.xenorite.item.CoreoriteAxeItem;
 import com.techiecrow.xenorite.item.CoreoriteArmorItem;
-import com.techiecrow.xenorite.item.CelestialSwordItem;
-import com.techiecrow.xenorite.item.CelestialShovelItem;
-import com.techiecrow.xenorite.item.CelestialPickaxeItem;
 import com.techiecrow.xenorite.item.CelestialIngotItem;
-import com.techiecrow.xenorite.item.CelestialHoeItem;
-import com.techiecrow.xenorite.item.CelestialAxeItem;
-import com.techiecrow.xenorite.item.CelestialArmorItem;
 import com.techiecrow.xenorite.item.AlloriteSwordItem;
 import com.techiecrow.xenorite.item.AlloriteShovelItem;
 import com.techiecrow.xenorite.item.AlloritePickaxeItem;
@@ -179,31 +167,6 @@ public class XenoriteModItems {
 	public static final RegistryObject<Item> ALLORITE_ARMOR_LEGGINGS = REGISTRY.register("allorite_armor_leggings",
 			() -> new AlloriteArmorItem.Leggings());
 	public static final RegistryObject<Item> ALLORITE_ARMOR_BOOTS = REGISTRY.register("allorite_armor_boots", () -> new AlloriteArmorItem.Boots());
-	public static final RegistryObject<Item> CELESTIAL_PICKAXE = REGISTRY.register("celestial_pickaxe", () -> new CelestialPickaxeItem());
-	public static final RegistryObject<Item> DESPICABLE_PICKAXE = REGISTRY.register("despicable_pickaxe", () -> new DespicablePickaxeItem());
-	public static final RegistryObject<Item> CELESTIAL_SHOVEL = REGISTRY.register("celestial_shovel", () -> new CelestialShovelItem());
-	public static final RegistryObject<Item> DESPICABLE_SHOVEL = REGISTRY.register("despicable_shovel", () -> new DespicableShovelItem());
-	public static final RegistryObject<Item> CELESTIAL_AXE = REGISTRY.register("celestial_axe", () -> new CelestialAxeItem());
-	public static final RegistryObject<Item> DESPICABLE_AXE = REGISTRY.register("despicable_axe", () -> new DespicableAxeItem());
-	public static final RegistryObject<Item> CELESTIAL_HOE = REGISTRY.register("celestial_hoe", () -> new CelestialHoeItem());
-	public static final RegistryObject<Item> DESPICABLE_HOE = REGISTRY.register("despicable_hoe", () -> new DespicableHoeItem());
-	public static final RegistryObject<Item> CELESTIAL_SWORD = REGISTRY.register("celestial_sword", () -> new CelestialSwordItem());
-	public static final RegistryObject<Item> DESPICABLE_SWORD = REGISTRY.register("despicable_sword", () -> new DespicableSwordItem());
-	public static final RegistryObject<Item> CELESTIAL_ARMOR_HELMET = REGISTRY.register("celestial_armor_helmet",
-			() -> new CelestialArmorItem.Helmet());
-	public static final RegistryObject<Item> CELESTIAL_ARMOR_CHESTPLATE = REGISTRY.register("celestial_armor_chestplate",
-			() -> new CelestialArmorItem.Chestplate());
-	public static final RegistryObject<Item> CELESTIAL_ARMOR_LEGGINGS = REGISTRY.register("celestial_armor_leggings",
-			() -> new CelestialArmorItem.Leggings());
-	public static final RegistryObject<Item> CELESTIAL_ARMOR_BOOTS = REGISTRY.register("celestial_armor_boots", () -> new CelestialArmorItem.Boots());
-	public static final RegistryObject<Item> DESPICABLE_ARMOR_HELMET = REGISTRY.register("despicable_armor_helmet",
-			() -> new DespicableArmorItem.Helmet());
-	public static final RegistryObject<Item> DESPICABLE_ARMOR_CHESTPLATE = REGISTRY.register("despicable_armor_chestplate",
-			() -> new DespicableArmorItem.Chestplate());
-	public static final RegistryObject<Item> DESPICABLE_ARMOR_LEGGINGS = REGISTRY.register("despicable_armor_leggings",
-			() -> new DespicableArmorItem.Leggings());
-	public static final RegistryObject<Item> DESPICABLE_ARMOR_BOOTS = REGISTRY.register("despicable_armor_boots",
-			() -> new DespicableArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
