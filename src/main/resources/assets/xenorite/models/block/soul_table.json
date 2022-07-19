@@ -1,7 +1,10 @@
 {
-  "parent": "block/cube_all",
+  "parent": "xenorite:custom/crafting_table",
   "textures": {
-    "all": "xenorite:blocks/placeholderblock",
-    "particle": "xenorite:blocks/placeholderblock"
+    "all": "xenorite:blocks/crafting_table",
+    "particle": "xenorite:blocks/crafting_table",
+    "0": "xenorite:blocks/oak_planks",
+    "1": "xenorite:blocks/red_wool",
+    "2": "xenorite:blocks/crafting_table"
   }
 }
