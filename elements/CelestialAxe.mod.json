@@ -3,19 +3,19 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "xcfmastershovel",
+    "texture": "xcfmasteraxe",
     "customModelName": "Normal",
-    "name": "Allorite Shovel",
+    "name": "Celestial Axe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:XenoriteCreativeTab"
     },
-    "toolType": "Spade",
+    "toolType": "Axe",
     "harvestLevel": 4,
     "efficiency": 16.0,
     "attackSpeed": 2.0,
     "enchantability": 20,
-    "damageVsEntity": 5.5,
+    "damageVsEntity": 18.0,
     "usageCount": 1561,
     "blocksAffected": [],
     "hasGlow": false,
