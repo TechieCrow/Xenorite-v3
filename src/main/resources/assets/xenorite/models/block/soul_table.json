@@ -1,5 +1,5 @@
 {
-  "parent": "xenorite:custom/crafting_table",
+  "parent": "xenorite:custom/soultable",
   "textures": {
     "all": "xenorite:blocks/crafting_table",
     "particle": "xenorite:blocks/crafting_table",
