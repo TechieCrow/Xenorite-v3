@@ -2081,6 +2081,24 @@
         ]
       },
       "path": "~/Procedures/Soul Table/Recipes/Armor/Despicable"
+    },
+    {
+      "name": "XenoriteSmelterRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xenorite_smelter_recipe",
+      "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "SoulTableRecipe",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_table_recipe",
+      "path": "~/Recipes/Blocks"
     }
   ],
   "variable_elements": [],
@@ -2124,8 +2142,8 @@
       "item.xenorite.finorite_armorhelmet": "Finorite Helmet",
       "block.xenorite.xenorite_smelter": "Xenorite Smelter",
       "item.xenorite.shadow_boron_armor_leggings": "Heavenly Glint Leggings",
-      "block.xenorite.shadow_boron_block": "Shadow Boron Block",
       "item.xenorite.despicable_pickaxe": "Despicable Pickaxe",
+      "block.xenorite.shadow_boron_block": "Shadow Boron Block",
       "item.xenorite.xenorite_armorhelmet": "Xenorite Helmet",
       "item.xenorite.celestial_armor_leggings": "Celestial Leggings",
       "item.xenorite.celestial_pickaxe": "Celestial Pickaxe",
