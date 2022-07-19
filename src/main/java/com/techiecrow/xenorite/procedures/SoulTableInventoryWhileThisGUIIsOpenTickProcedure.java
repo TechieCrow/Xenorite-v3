@@ -15,6 +15,32 @@ public class SoulTableInventoryWhileThisGUIIsOpenTickProcedure {
 			((Slot) _slots.get(10)).remove(1);
 			_player.containerMenu.broadcastChanges();
 		}
+		AlloriteSwordRecipeProcedure.execute(entity);
 		AlloritePickaxeRecipeProcedure.execute(entity);
+		AlloriteShovelRecipeProcedure.execute(entity);
+		AlloriteAxeRecipeProcedure.execute(entity);
+		AlloriteHoeRecipeProcedure.execute(entity);
+		AlloriteHelmetRecipeProcedure.execute(entity);
+		AlloriteChestplateRecipeProcedure.execute(entity);
+		AlloriteLeggingsRecipeProcedure.execute(entity);
+		AlloriteBootsRecipeProcedure.execute(entity);
+		CelestialSwordRecipeProcedure.execute(entity);
+		CelestialPickaxeRecipeProcedure.execute(entity);
+		CelestialShovelRecipeProcedure.execute(entity);
+		CelestialAxeRecipeProcedure.execute(entity);
+		CelestialHoeRecipeProcedure.execute(entity);
+		CelestialHelmetRecipeProcedure.execute(entity);
+		CelestialChestplateRecipeProcedure.execute(entity);
+		CelestialLeggingsRecipeProcedure.execute(entity);
+		CelestialBootsRecipeProcedure.execute(entity);
+		DespicableSwordRecipeProcedure.execute(entity);
+		DespicablePickaxeRecipeProcedure.execute(entity);
+		DespicableShovelRecipeProcedure.execute(entity);
+		DespicableAxeRecipeProcedure.execute(entity);
+		DespicableHoeRecipeProcedure.execute(entity);
+		DespicableHelmetRecipeProcedure.execute(entity);
+		DespicableChestplateRecipeProcedure.execute(entity);
+		DespicableLeggingsRecipeProcedure.execute(entity);
+		DespicableBootsRecipeProcedure.execute(entity);
 	}
 }

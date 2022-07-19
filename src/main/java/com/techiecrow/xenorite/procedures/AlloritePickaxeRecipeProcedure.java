@@ -27,7 +27,7 @@ public class AlloritePickaxeRecipeProcedure {
 			}
 		}.getAmount(0) >= 1 && (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 				&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-				.getItem() == XenoriteModItems.XENORITE_PICKAXE.get() && new Object() {
+				.getItem() == XenoriteModItems.ALLORITE_INGOT.get() && new Object() {
 					public int getAmount(int sltid) {
 						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 								&& _current.get() instanceof Map _slots) {
@@ -40,7 +40,7 @@ public class AlloritePickaxeRecipeProcedure {
 				}.getAmount(1) >= 1
 				&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY)
-						.getItem() == XenoriteModItems.COREORITE_PICKAXE.get()
+						.getItem() == XenoriteModItems.ALLORITE_INGOT.get()
 				&& new Object() {
 					public int getAmount(int sltid) {
 						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
@@ -54,7 +54,7 @@ public class AlloritePickaxeRecipeProcedure {
 				}.getAmount(2) >= 1
 				&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY)
-						.getItem() == XenoriteModItems.FINORITE_PICKAXE.get()
+						.getItem() == XenoriteModItems.ALLORITE_INGOT.get()
 				&& new Object() {
 					public int getAmount(int sltid) {
 						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current

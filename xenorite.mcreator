@@ -1639,6 +1639,448 @@
         "ec": true
       },
       "path": "~/Armor"
+    },
+    {
+      "name": "AlloriteShovelRecipe",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_shovel_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Shovels"
+    },
+    {
+      "name": "AlloriteAxeRecipe",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_axe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Axes"
+    },
+    {
+      "name": "AlloriteHoeRecipe",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_hoe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Hoes"
+    },
+    {
+      "name": "AlloriteSwordRecipe",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_sword_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Swords"
+    },
+    {
+      "name": "AlloriteHelmetRecipe",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_helmet_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Armor/Allorite"
+    },
+    {
+      "name": "AlloriteChestplateRecipe",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_chestplate_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Armor/Allorite"
+    },
+    {
+      "name": "AlloriteLeggingsRecipe",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_leggings_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Armor/Allorite"
+    },
+    {
+      "name": "AlloriteBootsRecipe",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allorite_boots_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Armor/Allorite"
+    },
+    {
+      "name": "CelestialPickaxeRecipe",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_pickaxe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
+    },
+    {
+      "name": "CelestialShovelRecipe",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_shovel_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Shovels"
+    },
+    {
+      "name": "CelestialAxeRecipe",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_axe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Axes"
+    },
+    {
+      "name": "CelestialHoeRecipe",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_hoe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Hoes"
+    },
+    {
+      "name": "CelestialSwordRecipe",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_sword_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Swords"
+    },
+    {
+      "name": "CelestialHelmetRecipe",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_helmet_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Armor/Celestial"
+    },
+    {
+      "name": "CelestialChestplateRecipe",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_chestplate_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Armor/Celestial"
+    },
+    {
+      "name": "CelestialLeggingsRecipe",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_leggings_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Armor/Celestial"
+    },
+    {
+      "name": "CelestialBootsRecipe",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_boots_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Armor/Celestial"
+    },
+    {
+      "name": "DespicablePickaxeRecipe",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despicable_pickaxe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Pickaxes"
+    },
+    {
+      "name": "DespicableShovelRecipe",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despicable_shovel_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Shovels"
+    },
+    {
+      "name": "DespicableAxeRecipe",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despicable_axe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Axes"
+    },
+    {
+      "name": "DespicableHoeRecipe",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despicable_hoe_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Hoes"
+    },
+    {
+      "name": "DespicableSwordRecipe",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despicable_sword_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Swords"
+    },
+    {
+      "name": "DespicableHelmetRecipe",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despicable_helmet_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Armor/Despicable"
+    },
+    {
+      "name": "DespicableChestplateRecipe",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despicable_chestplate_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Armor/Despicable"
+    },
+    {
+      "name": "DespicableLeggingsRecipe",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despicable_leggings_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Armor/Despicable"
+    },
+    {
+      "name": "DespicableBootsRecipe",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despicable_boots_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Soul Table/Recipes/Armor/Despicable"
     }
   ],
   "variable_elements": [],
@@ -1682,8 +2124,8 @@
       "item.xenorite.finorite_armorhelmet": "Finorite Helmet",
       "block.xenorite.xenorite_smelter": "Xenorite Smelter",
       "item.xenorite.shadow_boron_armor_leggings": "Heavenly Glint Leggings",
-      "item.xenorite.despicable_pickaxe": "Despicable Pickaxe",
       "block.xenorite.shadow_boron_block": "Shadow Boron Block",
+      "item.xenorite.despicable_pickaxe": "Despicable Pickaxe",
       "item.xenorite.xenorite_armorhelmet": "Xenorite Helmet",
       "item.xenorite.celestial_armor_leggings": "Celestial Leggings",
       "item.xenorite.celestial_pickaxe": "Celestial Pickaxe",
@@ -1837,7 +2279,20 @@
                   },
                   {
                     "name": "Armor",
-                    "children": []
+                    "children": [
+                      {
+                        "name": "Allorite",
+                        "children": []
+                      },
+                      {
+                        "name": "Celestial",
+                        "children": []
+                      },
+                      {
+                        "name": "Despicable",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               },
