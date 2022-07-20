@@ -33,7 +33,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "xenorite_smelter",
-      "path": "~/Smelters"
+      "path": "~/Block Entities/Smelter"
     },
     {
       "name": "XenoriteSmelterGUI",
@@ -1198,7 +1198,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_table",
-      "path": "~/Smelters"
+      "path": "~/Block Entities/Table"
     },
     {
       "name": "SoulTableInventoryWhileThisGUIIsOpenTick",
@@ -2106,7 +2106,8 @@
       "sortid": 205,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "xeenorite_smelter_particles"
+      "registry_name": "xeenorite_smelter_particles",
+      "path": "~/Block Entities/Smelter"
     }
   ],
   "variable_elements": [],
@@ -2150,8 +2151,8 @@
       "item.xenorite.finorite_armorhelmet": "Finorite Helmet",
       "block.xenorite.xenorite_smelter": "Xenorite Smelter",
       "item.xenorite.shadow_boron_armor_leggings": "Heavenly Glint Leggings",
-      "block.xenorite.shadow_boron_block": "Shadow Boron Block",
       "item.xenorite.despicable_pickaxe": "Despicable Pickaxe",
+      "block.xenorite.shadow_boron_block": "Shadow Boron Block",
       "item.xenorite.xenorite_armorhelmet": "Xenorite Helmet",
       "item.xenorite.celestial_armor_leggings": "Celestial Leggings",
       "item.xenorite.celestial_pickaxe": "Celestial Pickaxe",
@@ -2339,8 +2340,17 @@
         "children": []
       },
       {
-        "name": "Smelters",
-        "children": []
+        "name": "Block Entities",
+        "children": [
+          {
+            "name": "Smelter",
+            "children": []
+          },
+          {
+            "name": "Table",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Ores",
@@ -2489,8 +2499,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "patchouli",
-      "jei"
+      "patchouli"
     ],
     "currentGenerator": "forge-1.18.2",
     "credits": "Created by TechieCrow and Chewablebliss",
