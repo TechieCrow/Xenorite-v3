@@ -44,10 +44,10 @@ public class FinoriteOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new FinoriteOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("xenorite:finorite_ore", FEATURE,
-				new OreConfiguration(FinoriteOreFeatureRuleTest.INSTANCE, XenoriteModBlocks.FINORITE_ORE.get().defaultBlockState(), 5));
+				new OreConfiguration(FinoriteOreFeatureRuleTest.INSTANCE, XenoriteModBlocks.FINORITE_ORE.get().defaultBlockState(), 9));
 		PLACED_FEATURE = PlacementUtils.register("xenorite:finorite_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(1), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(20)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
+						HeightRangePlacement.triangle(VerticalAnchor.absolute(5), VerticalAnchor.absolute(40)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

@@ -2099,6 +2099,14 @@
       "locked_code": false,
       "registry_name": "soul_table_recipe",
       "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "XeenoriteSmelterParticles",
+      "type": "particle",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xeenorite_smelter_particles"
     }
   ],
   "variable_elements": [],

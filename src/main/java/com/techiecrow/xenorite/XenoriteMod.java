@@ -31,6 +31,7 @@ import java.util.function.Function;
 import java.util.function.BiConsumer;
 
 import com.techiecrow.xenorite.init.XenoriteModTabs;
+import com.techiecrow.xenorite.init.XenoriteModParticleTypes;
 import com.techiecrow.xenorite.init.XenoriteModItems;
 import com.techiecrow.xenorite.init.XenoriteModFeatures;
 import com.techiecrow.xenorite.init.XenoriteModEntities;
@@ -55,6 +56,7 @@ public class XenoriteMod {
 		XenoriteModBlockEntities.REGISTRY.register(bus);
 		XenoriteModFeatures.REGISTRY.register(bus);
 
+		XenoriteModParticleTypes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,
