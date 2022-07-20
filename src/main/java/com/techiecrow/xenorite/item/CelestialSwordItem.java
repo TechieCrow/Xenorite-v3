@@ -4,9 +4,11 @@ package com.techiecrow.xenorite.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
 import com.techiecrow.xenorite.init.XenoriteModTabs;
+import com.techiecrow.xenorite.init.XenoriteModItems;
 
 public class CelestialSwordItem extends SwordItem {
 	public CelestialSwordItem() {
@@ -16,24 +18,24 @@ public class CelestialSwordItem extends SwordItem {
 			}
 
 			public float getSpeed() {
-				return 16f;
+				return 9f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 12f;
+				return 6f;
 			}
 
 			public int getLevel() {
-				return 4;
+				return 5;
 			}
 
 			public int getEnchantmentValue() {
-				return 20;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of(new ItemStack(XenoriteModItems.CELESTIAL_INGOT.get()));
 			}
-		}, 3, -0.8f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
+		}, 3, -2.4f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB).fireResistant());
 	}
 }

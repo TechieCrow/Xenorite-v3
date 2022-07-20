@@ -11,16 +11,20 @@
       "value": "CUSTOM:XenoriteCreativeTab"
     },
     "toolType": "Axe",
-    "harvestLevel": 4,
-    "efficiency": 16.0,
-    "attackSpeed": 2.0,
-    "enchantability": 20,
-    "damageVsEntity": 18.0,
-    "usageCount": 1561,
+    "harvestLevel": 6,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 11.0,
+    "usageCount": 2032,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
-    "immuneToFire": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DespicableIngot"
+      }
+    ],
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

@@ -30,12 +30,12 @@ public class ShadowBoronHoeItem extends HoeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 10;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(XenoriteModItems.SHADOW_BORON_INGOT.get()));
 			}
-		}, 0, 0f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
+		}, 0, 0f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB).fireResistant());
 	}
 }

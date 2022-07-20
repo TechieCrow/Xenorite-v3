@@ -30,7 +30,7 @@ public class CoreoriteHoeItem extends HoeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 10;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {

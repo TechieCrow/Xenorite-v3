@@ -15,6 +15,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.EnderMan;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
@@ -40,13 +41,14 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.core.BlockPos;
 
+import com.techiecrow.xenorite.init.XenoriteModItems;
 import com.techiecrow.xenorite.init.XenoriteModEntities;
 
 @Mod.EventBusSubscriber
 public class XenBeastEntity extends EnderMan {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.AMBIENT).add(new MobSpawnSettings.SpawnerData(XenoriteModEntities.XEN_BEAST.get(), 10, 1, 2));
+		event.getSpawns().getSpawner(MobCategory.AMBIENT).add(new MobSpawnSettings.SpawnerData(XenoriteModEntities.XEN_BEAST.get(), 2, 1, 1));
 	}
 
 	public XenBeastEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -55,7 +57,7 @@ public class XenBeastEntity extends EnderMan {
 
 	public XenBeastEntity(EntityType<XenBeastEntity> type, Level world) {
 		super(type, world);
-		xpReward = 0;
+		xpReward = 5;
 		setNoAi(false);
 		setCustomName(new TextComponent("Xen Beast"));
 		setCustomNameVisible(true);
@@ -92,6 +94,11 @@ public class XenBeastEntity extends EnderMan {
 		return MobType.UNDEAD;
 	}
 
+	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
+		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
+		this.spawnAtLocation(new ItemStack(XenoriteModItems.UNIVERSE_SOUL_SPLIT.get()));
+	}
+
 	@Override
 	public SoundEvent getAmbientSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("xenorite:xen_beast_idle"));
@@ -110,6 +117,15 @@ public class XenBeastEntity extends EnderMan {
 	@Override
 	public boolean causeFallDamage(float l, float d, DamageSource source) {
 		return false;
+	}
+
+	@Override
+	public boolean hurt(DamageSource source, float amount) {
+		if (source == DamageSource.FALL)
+			return false;
+		if (source == DamageSource.DROWN)
+			return false;
+		return super.hurt(source, amount);
 	}
 
 	@Override

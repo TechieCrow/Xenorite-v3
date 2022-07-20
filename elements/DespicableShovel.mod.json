@@ -11,16 +11,16 @@
       "value": "CUSTOM:XenoriteCreativeTab"
     },
     "toolType": "Spade",
-    "harvestLevel": 4,
-    "efficiency": 16.0,
-    "attackSpeed": 2.0,
-    "enchantability": 20,
-    "damageVsEntity": 5.5,
-    "usageCount": 1561,
+    "harvestLevel": 6,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 7.0,
+    "usageCount": 2032,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

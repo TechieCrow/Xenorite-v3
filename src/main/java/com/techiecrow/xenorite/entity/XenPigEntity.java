@@ -39,7 +39,7 @@ import com.techiecrow.xenorite.init.XenoriteModEntities;
 public class XenPigEntity extends EnderMan {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.AMBIENT).add(new MobSpawnSettings.SpawnerData(XenoriteModEntities.XEN_PIG.get(), 10, 1, 4));
+		event.getSpawns().getSpawner(MobCategory.AMBIENT).add(new MobSpawnSettings.SpawnerData(XenoriteModEntities.XEN_PIG.get(), 2, 1, 2));
 	}
 
 	public XenPigEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -48,7 +48,7 @@ public class XenPigEntity extends EnderMan {
 
 	public XenPigEntity(EntityType<XenPigEntity> type, Level world) {
 		super(type, world);
-		xpReward = 0;
+		xpReward = 3;
 		setNoAi(false);
 	}
 
@@ -115,8 +115,9 @@ public class XenPigEntity extends EnderMan {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
 		builder = builder.add(Attributes.MAX_HEALTH, 10);
-		builder = builder.add(Attributes.ARMOR, 0);
+		builder = builder.add(Attributes.ARMOR, 3);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.5);
 		return builder;
 	}
 }
