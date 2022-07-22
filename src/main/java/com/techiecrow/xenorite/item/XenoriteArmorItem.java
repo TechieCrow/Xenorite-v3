@@ -31,12 +31,12 @@ public abstract class XenoriteArmorItem extends ArmorItem {
 
 			@Override
 			public int getEnchantmentValue() {
-				return 10;
+				return 25;
 			}
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_diamond"));
 			}
 
 			@Override

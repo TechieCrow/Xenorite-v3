@@ -29,7 +29,7 @@ public class XenoriteModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<XenPigEntity>> XEN_PIG = register("xen_pig",
-			EntityType.Builder.<XenPigEntity>of(XenPigEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+			EntityType.Builder.<XenPigEntity>of(XenPigEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(50)
 					.setUpdateInterval(3).setCustomClientFactory(XenPigEntity::new)
 
 					.sized(0.9f, 0.9f));

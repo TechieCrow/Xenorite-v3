@@ -33,7 +33,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "xenorite_smelter",
-      "path": "~/Smelters"
+      "path": "~/Block Entities/Smelter"
     },
     {
       "name": "XenoriteSmelterGUI",
@@ -1198,7 +1198,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_table",
-      "path": "~/Smelters"
+      "path": "~/Block Entities/Table"
     },
     {
       "name": "SoulTableInventoryWhileThisGUIIsOpenTick",
@@ -2099,6 +2099,15 @@
       "locked_code": false,
       "registry_name": "soul_table_recipe",
       "path": "~/Recipes/Blocks"
+    },
+    {
+      "name": "XeenoriteSmelterParticles",
+      "type": "particle",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xeenorite_smelter_particles",
+      "path": "~/Block Entities/Smelter"
     }
   ],
   "variable_elements": [],
@@ -2331,8 +2340,17 @@
         "children": []
       },
       {
-        "name": "Smelters",
-        "children": []
+        "name": "Block Entities",
+        "children": [
+          {
+            "name": "Smelter",
+            "children": []
+          },
+          {
+            "name": "Table",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Ores",
@@ -2481,8 +2499,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "patchouli",
-      "jei"
+      "patchouli"
     ],
     "currentGenerator": "forge-1.18.2",
     "credits": "Created by TechieCrow and Chewablebliss",
