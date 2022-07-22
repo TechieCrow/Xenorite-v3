@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "coreoritesword",
+    "texture": "sword.coreorite",
     "customModelName": "Normal",
     "name": "Coreorite Sword",
     "specialInfo": [],

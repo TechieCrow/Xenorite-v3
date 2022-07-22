@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "xenoritehoe",
+    "texture": "hoe.xenorite",
     "customModelName": "Normal",
     "name": "Xenorite Hoe",
     "specialInfo": [],

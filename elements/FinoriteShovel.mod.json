@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "finoriteshovel",
+    "texture": "shovel.finorite",
     "customModelName": "Normal",
     "name": "Finorite Shovel",
     "specialInfo": [],

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "xcfmasterhoe",
+    "texture": "hoe.allorite",
     "customModelName": "Normal",
     "name": "Allorite Hoe",
     "specialInfo": [],

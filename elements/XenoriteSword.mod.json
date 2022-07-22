@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "xenoritesword",
+    "texture": "sword.xenorite",
     "customModelName": "Normal",
     "name": "Xenorite Sword",
     "specialInfo": [],

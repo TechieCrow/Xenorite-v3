@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "coreoritepickaxe",
+    "texture": "hoe.coreorite",
     "customModelName": "Normal",
     "name": "Coreorite Pickaxe",
     "specialInfo": [],

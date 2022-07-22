@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "xenoriteaxe",
+    "texture": "axe.xenorite",
     "customModelName": "Normal",
     "name": "Xenorite Axe",
     "specialInfo": [],

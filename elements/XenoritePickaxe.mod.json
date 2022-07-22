@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "xenoritepickaxe",
+    "texture": "pick.xenorite",
     "customModelName": "Normal",
     "name": "Xenorite Pickaxe",
     "specialInfo": [],

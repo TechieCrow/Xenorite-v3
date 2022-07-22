@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "shadowboronsword",
+    "texture": "sword.shadowboron",
     "customModelName": "Normal",
     "name": "Shadow Boron Sword",
     "specialInfo": [],
