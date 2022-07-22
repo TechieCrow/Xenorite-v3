@@ -16,24 +16,24 @@ public class CelestialShovelItem extends ShovelItem {
 			}
 
 			public float getSpeed() {
-				return 9f;
+				return 16f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 4f;
+				return 3.5f;
 			}
 
 			public int getLevel() {
-				return 5;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 20;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB).fireResistant());
+		}, 1, -2f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
 	}
 }

@@ -12,28 +12,28 @@ public class DespicableShovelItem extends ShovelItem {
 	public DespicableShovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2032;
+				return 1561;
 			}
 
 			public float getSpeed() {
-				return 10f;
+				return 16f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 5f;
+				return 3.5f;
 			}
 
 			public int getLevel() {
-				return 6;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 20;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB).fireResistant());
+		}, 1, -2f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
 	}
 }

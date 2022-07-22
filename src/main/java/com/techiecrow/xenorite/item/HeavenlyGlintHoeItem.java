@@ -30,12 +30,12 @@ public class HeavenlyGlintHoeItem extends HoeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(XenoriteModItems.HEAVENLY_GLINT_INGOT.get()));
 			}
-		}, 0, 0f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB).fireResistant());
+		}, 0, 0f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
 	}
 }

@@ -26,11 +26,11 @@ public class FinoriteSwordItem extends SwordItem {
 			}
 
 			public int getLevel() {
-				return 4;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {

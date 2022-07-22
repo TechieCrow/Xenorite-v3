@@ -30,7 +30,7 @@ public class XenoriteSwordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {

@@ -133,9 +133,9 @@
         "value": "Blocks.NETHERRACK"
       }
     ],
-    "generationShape": "TRIANGLE",
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 9,
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 5,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 256
   }

@@ -44,10 +44,10 @@ public class HeavenlyGlintOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new HeavenlyGlintOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("xenorite:heavenly_glint_ore", FEATURE,
-				new OreConfiguration(HeavenlyGlintOreFeatureRuleTest.INSTANCE, XenoriteModBlocks.HEAVENLY_GLINT_ORE.get().defaultBlockState(), 9));
+				new OreConfiguration(HeavenlyGlintOreFeatureRuleTest.INSTANCE, XenoriteModBlocks.HEAVENLY_GLINT_ORE.get().defaultBlockState(), 5));
 		PLACED_FEATURE = PlacementUtils.register("xenorite:heavenly_glint_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
-						HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(1), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

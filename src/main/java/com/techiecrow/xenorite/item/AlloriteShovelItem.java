@@ -4,11 +4,9 @@ package com.techiecrow.xenorite.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ShovelItem;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
 import com.techiecrow.xenorite.init.XenoriteModTabs;
-import com.techiecrow.xenorite.init.XenoriteModItems;
 
 public class AlloriteShovelItem extends ShovelItem {
 	public AlloriteShovelItem() {
@@ -18,24 +16,24 @@ public class AlloriteShovelItem extends ShovelItem {
 			}
 
 			public float getSpeed() {
-				return 9f;
+				return 16f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 3.5f;
 			}
 
 			public int getLevel() {
-				return 5;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 20;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(XenoriteModItems.ALLORITE_INGOT.get()));
+				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
+		}, 1, -2f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
 	}
 }

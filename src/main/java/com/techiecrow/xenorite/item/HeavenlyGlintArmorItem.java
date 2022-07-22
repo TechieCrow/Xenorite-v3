@@ -31,12 +31,12 @@ public abstract class HeavenlyGlintArmorItem extends ArmorItem {
 
 			@Override
 			public int getEnchantmentValue() {
-				return 25;
+				return 10;
 			}
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_diamond"));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
 			}
 
 			@Override

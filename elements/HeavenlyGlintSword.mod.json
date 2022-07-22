@@ -14,7 +14,7 @@
     "harvestLevel": 4,
     "efficiency": 8.0,
     "attackSpeed": 1.6,
-    "enchantability": 22,
+    "enchantability": 10,
     "damageVsEntity": 7.0,
     "usageCount": 780,
     "blocksAffected": [],
@@ -24,7 +24,7 @@
         "value": "CUSTOM:HeavenlyGlintIngot"
       }
     ],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

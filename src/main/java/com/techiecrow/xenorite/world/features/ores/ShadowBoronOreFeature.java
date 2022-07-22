@@ -44,10 +44,10 @@ public class ShadowBoronOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new ShadowBoronOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("xenorite:shadow_boron_ore", FEATURE,
-				new OreConfiguration(ShadowBoronOreFeatureRuleTest.INSTANCE, XenoriteModBlocks.SHADOW_BORON_ORE.get().defaultBlockState(), 9));
+				new OreConfiguration(ShadowBoronOreFeatureRuleTest.INSTANCE, XenoriteModBlocks.SHADOW_BORON_ORE.get().defaultBlockState(), 5));
 		PLACED_FEATURE = PlacementUtils.register("xenorite:shadow_boron_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
-						HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(1), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

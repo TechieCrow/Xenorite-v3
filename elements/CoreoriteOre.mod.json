@@ -142,10 +142,10 @@
         "value": "Blocks.STONE"
       }
     ],
-    "generationShape": "TRIANGLE",
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 9,
-    "minGenerateHeight": 5,
-    "maxGenerateHeight": 40
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 5,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 20
   }
 }

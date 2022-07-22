@@ -44,10 +44,10 @@ public class CoreoriteOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new CoreoriteOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("xenorite:coreorite_ore", FEATURE,
-				new OreConfiguration(CoreoriteOreFeatureRuleTest.INSTANCE, XenoriteModBlocks.COREORITE_ORE.get().defaultBlockState(), 9));
+				new OreConfiguration(CoreoriteOreFeatureRuleTest.INSTANCE, XenoriteModBlocks.COREORITE_ORE.get().defaultBlockState(), 5));
 		PLACED_FEATURE = PlacementUtils.register("xenorite:coreorite_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
-						HeightRangePlacement.triangle(VerticalAnchor.absolute(5), VerticalAnchor.absolute(40)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(1), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(20)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

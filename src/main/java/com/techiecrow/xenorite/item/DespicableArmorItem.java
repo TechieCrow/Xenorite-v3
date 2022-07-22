@@ -14,34 +14,33 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
 import com.techiecrow.xenorite.init.XenoriteModTabs;
-import com.techiecrow.xenorite.init.XenoriteModItems;
 
 public abstract class DespicableArmorItem extends ArmorItem {
 	public DespicableArmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 41;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 66;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{3, 6, 8, 3}[slot.getIndex()];
+				return new int[]{6, 12, 16, 6}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 25;
+				return 20;
 			}
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_netherite"));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
 			}
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(XenoriteModItems.DESPICABLE_INGOT.get()));
+				return Ingredient.EMPTY;
 			}
 
 			@Override
@@ -51,12 +50,12 @@ public abstract class DespicableArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 3f;
+				return 4f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.1f;
+				return 0f;
 			}
 		}, slot, properties);
 	}
