@@ -30,7 +30,7 @@ public class CoreoriteSwordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 10;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {

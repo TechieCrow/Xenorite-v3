@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "xenorite:items/pick.finorite"
+    "layer0": "xenorite:items/finoritepickaxe"
   }
 }

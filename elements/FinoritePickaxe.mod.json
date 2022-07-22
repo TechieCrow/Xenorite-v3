@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "pick.finorite",
+    "texture": "finoritepickaxe",
     "customModelName": "Normal",
     "name": "Finorite Pickaxe",
     "specialInfo": [],
@@ -14,7 +14,7 @@
     "harvestLevel": 4,
     "efficiency": 8.0,
     "attackSpeed": 1.2,
-    "enchantability": 10,
+    "enchantability": 22,
     "damageVsEntity": 5.0,
     "usageCount": 780,
     "blocksAffected": [],

@@ -11,16 +11,20 @@
       "value": "CUSTOM:XenoriteCreativeTab"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 4,
-    "efficiency": 16.0,
-    "attackSpeed": 2.4,
-    "enchantability": 20,
-    "damageVsEntity": 5.0,
-    "usageCount": 1561,
+    "harvestLevel": 6,
+    "efficiency": 10.0,
+    "attackSpeed": 1.2,
+    "enchantability": 22,
+    "damageVsEntity": 7.0,
+    "usageCount": 2032,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
-    "immuneToFire": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DespicableIngot"
+      }
+    ],
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

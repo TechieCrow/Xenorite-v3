@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "shovel.xenorite",
+    "texture": "xenoriteshovel",
     "customModelName": "Normal",
     "name": "Xenorite Shovel",
     "specialInfo": [],
@@ -14,7 +14,7 @@
     "harvestLevel": 4,
     "efficiency": 8.0,
     "attackSpeed": 1.0,
-    "enchantability": 10,
+    "enchantability": 22,
     "damageVsEntity": 2.75,
     "usageCount": 780,
     "blocksAffected": [],

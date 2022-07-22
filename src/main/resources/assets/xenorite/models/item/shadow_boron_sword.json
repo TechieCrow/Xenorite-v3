@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "xenorite:items/sword.shadowboron"
+    "layer0": "xenorite:items/shadowboronsword"
   }
 }

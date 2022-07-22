@@ -40,17 +40,21 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 66,
-    "damageValueHelmet": 6,
-    "damageValueBody": 16,
-    "damageValueLeggings": 12,
-    "damageValueBoots": 6,
-    "enchantability": 20,
-    "toughness": 4.0,
-    "knockbackResistance": 0.0,
+    "maxDamage": 37,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 25,
+    "toughness": 3.0,
+    "knockbackResistance": 0.1,
     "equipSound": {
-      "value": ""
+      "value": "item.armor.equip_netherite"
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:CelestialIngot"
+      }
+    ]
   }
 }

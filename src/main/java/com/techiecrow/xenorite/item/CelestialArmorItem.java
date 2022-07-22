@@ -14,33 +14,34 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
 import com.techiecrow.xenorite.init.XenoriteModTabs;
+import com.techiecrow.xenorite.init.XenoriteModItems;
 
 public abstract class CelestialArmorItem extends ArmorItem {
 	public CelestialArmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 66;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 37;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{6, 12, 16, 6}[slot.getIndex()];
+				return new int[]{3, 6, 8, 3}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 20;
+				return 25;
 			}
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_netherite"));
 			}
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of(new ItemStack(XenoriteModItems.CELESTIAL_INGOT.get()));
 			}
 
 			@Override
@@ -50,12 +51,12 @@ public abstract class CelestialArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 4f;
+				return 3f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.1f;
 			}
 		}, slot, properties);
 	}

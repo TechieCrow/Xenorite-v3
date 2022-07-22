@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "xenorite:items/shovel.finorite"
+    "layer0": "xenorite:items/finoriteshovel"
   }
 }

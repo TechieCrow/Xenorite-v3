@@ -30,7 +30,7 @@ public class XenoriteShovelItem extends ShovelItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 10;
+				return 22;
 			}
 
 			public Ingredient getRepairIngredient() {

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hoe.xenorite",
+    "texture": "xenoritehoe",
     "customModelName": "Normal",
     "name": "Xenorite Hoe",
     "specialInfo": [],
@@ -14,7 +14,7 @@
     "harvestLevel": 4,
     "efficiency": 8.0,
     "attackSpeed": 4.0,
-    "enchantability": 10,
+    "enchantability": 22,
     "damageVsEntity": 1.0,
     "usageCount": 780,
     "blocksAffected": [],
