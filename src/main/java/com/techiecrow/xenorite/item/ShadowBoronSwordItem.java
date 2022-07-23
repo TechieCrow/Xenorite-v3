@@ -36,6 +36,6 @@ public class ShadowBoronSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(XenoriteModItems.SHADOW_BORON_INGOT.get()));
 			}
-		}, 3, -2.4f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB).fireResistant());
+		}, 3, -2.4f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_WEAPONS).fireResistant());
 	}
 }

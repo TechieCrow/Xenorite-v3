@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "finoritesword",
+    "texture": "sword.finorite",
     "customModelName": "Normal",
     "name": "Finorite Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:XenoriteCreativeTab"
+      "value": "CUSTOM:XenoriteCreativeTabWeapons"
     },
     "toolType": "Sword",
     "harvestLevel": 4,

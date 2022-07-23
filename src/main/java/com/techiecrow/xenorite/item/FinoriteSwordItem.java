@@ -36,6 +36,6 @@ public class FinoriteSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(XenoriteModItems.FINORITE_INGOT.get()));
 			}
-		}, 3, -2.4f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
+		}, 3, -2.4f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_WEAPONS));
 	}
 }

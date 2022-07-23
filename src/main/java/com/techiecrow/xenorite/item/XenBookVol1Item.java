@@ -34,7 +34,7 @@ import com.techiecrow.xenorite.init.XenoriteModTabs;
 
 public class XenBookVol1Item extends Item {
 	public XenBookVol1Item() {
-		super(new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_ITEMS).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

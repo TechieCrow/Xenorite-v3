@@ -63,7 +63,7 @@ public abstract class CoreoriteArmorItem extends ArmorItem {
 
 	public static class Helmet extends CoreoriteArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_ARMOR));
 		}
 
 		@Override
@@ -74,7 +74,7 @@ public abstract class CoreoriteArmorItem extends ArmorItem {
 
 	public static class Chestplate extends CoreoriteArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_ARMOR));
 		}
 
 		@Override
@@ -85,7 +85,7 @@ public abstract class CoreoriteArmorItem extends ArmorItem {
 
 	public static class Leggings extends CoreoriteArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_ARMOR));
 		}
 
 		@Override
@@ -96,7 +96,7 @@ public abstract class CoreoriteArmorItem extends ArmorItem {
 
 	public static class Boots extends CoreoriteArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_ARMOR));
 		}
 
 		@Override

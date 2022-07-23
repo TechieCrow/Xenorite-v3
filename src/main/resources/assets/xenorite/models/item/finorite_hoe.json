@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "xenorite:items/finoritehoe"
+    "layer0": "xenorite:items/hoe.finorite"
   }
 }

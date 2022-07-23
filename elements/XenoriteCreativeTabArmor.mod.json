@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Xenorite Armor",
+    "icon": {
+      "value": "CUSTOM:XenoriteArmor.helmet"
+    },
+    "showSearch": false
+  }
+}

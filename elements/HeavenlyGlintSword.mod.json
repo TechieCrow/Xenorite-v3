@@ -8,7 +8,7 @@
     "name": "Heavenly Glint Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:XenoriteCreativeTab"
+      "value": "CUSTOM:XenoriteCreativeTabWeapons"
     },
     "toolType": "Sword",
     "harvestLevel": 4,

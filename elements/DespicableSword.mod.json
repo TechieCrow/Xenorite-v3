@@ -8,7 +8,7 @@
     "name": "Despicable Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:XenoriteCreativeTab"
+      "value": "CUSTOM:XenoriteCreativeTabWeapons"
     },
     "toolType": "Sword",
     "harvestLevel": 6,

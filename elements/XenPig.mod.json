@@ -21,7 +21,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "CUSTOM:XenoriteCreativeTab"
+      "value": "CUSTOM:XenoriteCreativeTabItems"
     },
     "isBoss": false,
     "bossBarColor": "PINK",

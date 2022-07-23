@@ -8,7 +8,7 @@
     "name": "Finorite Ingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:XenoriteCreativeTab"
+      "value": "CUSTOM:XenoriteCreativeTabItems"
     },
     "stackSize": 64,
     "enchantability": 0,

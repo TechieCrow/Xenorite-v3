@@ -8,7 +8,7 @@
     "name": "Heavenly Glint Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:XenoriteCreativeTab"
+      "value": "CUSTOM:XenoriteCreativeTabTools"
     },
     "toolType": "Spade",
     "harvestLevel": 4,

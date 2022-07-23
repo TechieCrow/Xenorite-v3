@@ -10,7 +10,7 @@ import com.techiecrow.xenorite.init.XenoriteModTabs;
 
 public class UniverseSoulSplitItem extends Item {
 	public UniverseSoulSplitItem() {
-		super(new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB).durability(9).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_ITEMS).durability(9).rarity(Rarity.EPIC));
 	}
 
 	@Override

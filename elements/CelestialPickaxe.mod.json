@@ -8,7 +8,7 @@
     "name": "Celestial Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:XenoriteCreativeTab"
+      "value": "CUSTOM:XenoriteCreativeTabTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 5,

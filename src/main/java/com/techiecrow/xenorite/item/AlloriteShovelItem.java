@@ -36,6 +36,6 @@ public class AlloriteShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(XenoriteModItems.ALLORITE_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
+		}, 1, -3f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_TOOLS));
 	}
 }

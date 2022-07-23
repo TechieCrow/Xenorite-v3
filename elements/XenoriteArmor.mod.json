@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "bootsxenorite",
     "creativeTab": {
-      "value": "CUSTOM:XenoriteCreativeTab"
+      "value": "CUSTOM:XenoriteCreativeTabArmor"
     },
     "armorTextureFile": "xenorite_",
     "helmetName": "Xenorite Helmet",

@@ -8,7 +8,7 @@
     "name": "Coreorite Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:XenoriteCreativeTab"
+      "value": "CUSTOM:XenoriteCreativeTabTools"
     },
     "toolType": "Axe",
     "harvestLevel": 4,

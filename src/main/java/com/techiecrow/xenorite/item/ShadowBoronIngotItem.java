@@ -10,7 +10,7 @@ import com.techiecrow.xenorite.init.XenoriteModTabs;
 
 public class ShadowBoronIngotItem extends Item {
 	public ShadowBoronIngotItem() {
-		super(new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_ITEMS).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

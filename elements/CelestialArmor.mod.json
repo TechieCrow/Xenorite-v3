@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "bootsxcfmaster",
     "creativeTab": {
-      "value": "CUSTOM:XenoriteCreativeTab"
+      "value": "CUSTOM:XenoriteCreativeTabArmor"
     },
     "armorTextureFile": "xcfmaster_",
     "helmetName": "Celestial Helmet",

@@ -2,10 +2,10 @@
   "_fv": 28,
   "_type": "tab",
   "definition": {
-    "name": "Xenorite",
+    "name": "Xenorite Blocks",
     "icon": {
       "value": "CUSTOM:XenoriteOre"
     },
-    "showSearch": true
+    "showSearch": false
   }
 }

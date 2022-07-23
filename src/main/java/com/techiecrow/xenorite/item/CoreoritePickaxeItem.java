@@ -36,6 +36,6 @@ public class CoreoritePickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(XenoriteModItems.COREORITE_INGOT.get()));
 			}
-		}, 1, -2.8f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB));
+		}, 1, -2.8f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_TOOLS));
 	}
 }

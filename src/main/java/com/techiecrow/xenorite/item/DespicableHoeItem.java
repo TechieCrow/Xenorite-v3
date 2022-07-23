@@ -36,6 +36,6 @@ public class DespicableHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(XenoriteModItems.DESPICABLE_INGOT.get()));
 			}
-		}, 0, 0f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB).fireResistant());
+		}, 0, 0f, new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_TOOLS).fireResistant());
 	}
 }

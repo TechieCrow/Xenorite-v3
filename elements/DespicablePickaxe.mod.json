@@ -8,7 +8,7 @@
     "name": "Despicable Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:XenoriteCreativeTab"
+      "value": "CUSTOM:XenoriteCreativeTabTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 6,

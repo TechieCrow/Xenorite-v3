@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "xenorite:items/xenoriteaxe"
+    "layer0": "xenorite:items/axe.xenorite"
   }
 }

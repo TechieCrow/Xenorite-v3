@@ -15,7 +15,7 @@ import com.techiecrow.xenorite.init.XenoriteModTabs;
 
 public class LootingBagItemItem extends Item {
 	public LootingBagItemItem() {
-		super(new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB).stacksTo(64).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(XenoriteModTabs.TAB_XENORITE_CREATIVE_TAB_ITEMS).stacksTo(64).rarity(Rarity.EPIC));
 	}
 
 	@Override
