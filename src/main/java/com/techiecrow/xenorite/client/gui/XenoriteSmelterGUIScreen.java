@@ -33,7 +33,7 @@ public class XenoriteSmelterGUIScreen extends AbstractContainerScreen<XenoriteSm
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("xenorite:textures/xenorite_smelter_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("xenorite:textures/screens/xenorite_smelter_gui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {

@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "raw_coreorite_recipe",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawCoreorite"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CoreoriteIngot"
+    },
+    "name": "raw_coreorite_recipe",
+    "namespace": "mod"
+  }
+}

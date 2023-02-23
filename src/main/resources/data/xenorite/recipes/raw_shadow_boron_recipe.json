@@ -1,0 +1,10 @@
+{
+  "group": "raw_shadow_boron_recipe",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "xenorite:raw_shadow_boron"
+  },
+  "result": "xenorite:shadow_boron_ingot"
+}

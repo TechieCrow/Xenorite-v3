@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "raw_shadow_boron_recipe",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawShadowBoron"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:ShadowBoronIngot"
+    },
+    "name": "raw_shadow_boron_recipe",
+    "namespace": "mod"
+  }
+}

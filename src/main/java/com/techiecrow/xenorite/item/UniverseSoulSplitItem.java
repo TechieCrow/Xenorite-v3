@@ -37,9 +37,4 @@ public class UniverseSoulSplitItem extends Item {
 	public boolean isRepairable(ItemStack itemstack) {
 		return false;
 	}
-
-	@Override
-	public int getUseDuration(ItemStack itemstack) {
-		return 0;
-	}
 }

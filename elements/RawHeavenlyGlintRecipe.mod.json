@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "raw_heavenly_glint_recipe",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawHeavenlyGlint"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HeavenlyGlintIngot"
+    },
+    "name": "raw_heavenly_glint_recipe",
+    "namespace": "mod"
+  }
+}

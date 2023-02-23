@@ -46,7 +46,7 @@ public class XenBookVol1GUIScreen extends AbstractContainerScreen<XenBookVol1GUI
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("xenorite:textures/book.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("xenorite:textures/screens/book.png"));
 		this.blit(ms, this.leftPos + 16, this.topPos + -11, 0, 0, 146, 180, 146, 180);
 
 		RenderSystem.disableBlend();

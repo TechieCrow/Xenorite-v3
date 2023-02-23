@@ -15,6 +15,6 @@ public class XenBeastRenderer extends MobRenderer<XenBeastEntity, ModelXenBeastM
 
 	@Override
 	public ResourceLocation getTextureLocation(XenBeastEntity entity) {
-		return new ResourceLocation("xenorite:textures/xenbeasttexture.png");
+		return new ResourceLocation("xenorite:textures/entities/xenbeasttexture.png");
 	}
 }

@@ -1,12 +1,12 @@
 {
-  "_fv": 28,
+  "_fv": 34,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 9,
-    "group": "",
+    "group": "heavenly_glint_ingot_recipe",
     "recipeShapeless": true,
     "recipeSlots": [
       {

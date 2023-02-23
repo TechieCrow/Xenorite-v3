@@ -32,6 +32,7 @@ import java.util.List;
 import java.util.Collections;
 
 import com.techiecrow.xenorite.procedures.CoreoriteOreHurtPlayerProcedure;
+import com.techiecrow.xenorite.init.XenoriteModItems;
 
 public class CoreoriteOreBlock extends FallingBlock {
 	public CoreoriteOreBlock() {
@@ -60,7 +61,7 @@ public class CoreoriteOreBlock extends FallingBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(XenoriteModItems.RAW_COREORITE.get()));
 	}
 
 	@OnlyIn(Dist.CLIENT)

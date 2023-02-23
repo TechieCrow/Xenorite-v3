@@ -30,6 +30,11 @@ import com.techiecrow.xenorite.item.ShadowBoronIngotItem;
 import com.techiecrow.xenorite.item.ShadowBoronHoeItem;
 import com.techiecrow.xenorite.item.ShadowBoronAxeItem;
 import com.techiecrow.xenorite.item.ShadowBoronArmorItem;
+import com.techiecrow.xenorite.item.RawXenoriteItem;
+import com.techiecrow.xenorite.item.RawShadowBoronItem;
+import com.techiecrow.xenorite.item.RawHeavenlyGlintItem;
+import com.techiecrow.xenorite.item.RawFinoriteItem;
+import com.techiecrow.xenorite.item.RawCoreoriteItem;
 import com.techiecrow.xenorite.item.LootingBagItemItem;
 import com.techiecrow.xenorite.item.HeavenlyGlintSwordItem;
 import com.techiecrow.xenorite.item.HeavenlyGlintShovelItem;
@@ -210,6 +215,11 @@ public class XenoriteModItems {
 	public static final RegistryObject<Item> UNIVERSE_SOUL_SPLIT = REGISTRY.register("universe_soul_split", () -> new UniverseSoulSplitItem());
 	public static final RegistryObject<Item> LOOTING_BAG_ITEM = REGISTRY.register("looting_bag_item", () -> new LootingBagItemItem());
 	public static final RegistryObject<Item> XEN_BOOK_VOL_1 = REGISTRY.register("xen_book_vol_1", () -> new XenBookVol1Item());
+	public static final RegistryObject<Item> RAW_XENORITE = REGISTRY.register("raw_xenorite", () -> new RawXenoriteItem());
+	public static final RegistryObject<Item> RAW_COREORITE = REGISTRY.register("raw_coreorite", () -> new RawCoreoriteItem());
+	public static final RegistryObject<Item> RAW_FINORITE = REGISTRY.register("raw_finorite", () -> new RawFinoriteItem());
+	public static final RegistryObject<Item> RAW_HEAVENLY_GLINT = REGISTRY.register("raw_heavenly_glint", () -> new RawHeavenlyGlintItem());
+	public static final RegistryObject<Item> RAW_SHADOW_BORON = REGISTRY.register("raw_shadow_boron", () -> new RawShadowBoronItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

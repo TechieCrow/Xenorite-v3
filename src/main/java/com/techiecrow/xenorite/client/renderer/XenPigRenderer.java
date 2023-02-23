@@ -16,6 +16,6 @@ public class XenPigRenderer extends MobRenderer<XenPigEntity, PigModel<XenPigEnt
 
 	@Override
 	public ResourceLocation getTextureLocation(XenPigEntity entity) {
-		return new ResourceLocation("xenorite:textures/xenpig.png");
+		return new ResourceLocation("xenorite:textures/entities/xenpig.png");
 	}
 }

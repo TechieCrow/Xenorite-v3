@@ -1,4 +1,5 @@
 {
+  "group": "finorite_axe_recipe",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "01",

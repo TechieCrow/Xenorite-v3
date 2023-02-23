@@ -1,4 +1,5 @@
 {
+  "group": "finorite_block_recipe",
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {

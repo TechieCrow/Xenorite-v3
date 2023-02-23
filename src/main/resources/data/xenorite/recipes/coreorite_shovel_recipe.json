@@ -1,4 +1,5 @@
 {
+  "group": "coreorite_shovel_recipe",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "0",

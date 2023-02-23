@@ -1,4 +1,5 @@
 {
+  "group": "xenorite_hoe_recipe",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "01",
